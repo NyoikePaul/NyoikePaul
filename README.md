@@ -1,4 +1,4 @@
-# Paul Kamau Nyoike
+# Paul 
 
 <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank">
   <img src="https://avatars.githubusercontent.com/u/63657593?v=4" align="right" width="160" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-left: 20px;"/>
