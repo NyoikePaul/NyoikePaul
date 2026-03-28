@@ -77,7 +77,7 @@ I architect high-availability systems, deliver production-ready software product
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🚀 DevOps & Dashboards</h4>
+      <h4> DevOps & Dashboards</h4>
       <ul>
         <li><b><a href="https://github.com/nyoikepaul/bash-cloud-forge">Bash Cloud Forge</a></b><br/>Pure Bash toolkit for rapid provisioning, hardening & deployment (DO + AWS)</li>
         <li><b><a href="https://github.com/nyoikepaul/gigflow">GigFlow Analytics Dashboard</a></b><br/>Premium Next.js 16 freelance dashboard with TypeScript, Tailwind & Zustand</li>
