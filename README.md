@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/AVAILABLE_FOR_HIRE-00C853?style=for-the-badge&logo=upwork&logoColor=white" alt="Available for Hire"/>
   </a>
 
-  <h1>Hey, I'm Paul 👋</h1>
+  
   <p><b>Senior Backend Engineer | ERP Specialist | FinTech Architect</b></p>
 
   <p>I build production-grade APIs, custom ERP systems, and seamless payment integrations.<br/>
