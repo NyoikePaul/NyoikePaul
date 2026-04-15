@@ -12,6 +12,7 @@
   <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank">
     <img src="https://img.shields.io/badge/AVAILABLE_FOR_HIRE-00C853?style=for-the-badge&logo=upwork&logoColor=white" alt="Available for Hire"/>
   </a>
+  https://www.upwork.com/freelancers/~0117b7d1b005b4b7f8
 
   
   
