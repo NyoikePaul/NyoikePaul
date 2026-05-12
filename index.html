@@ -1,159 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paul Kamau Nyoike | Senior Full-Stack & Backend Engineer · Nairobi</title>
-  <meta name="description" content="Paul Kamau Nyoike — Senior Full-Stack Developer | Expert in React, TypeScript, Node.js, Odoo ERP & FinTech Integrations | Nairobi, Kenya" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Paul Kamau Nyoike | Senior Full-Stack & Backend Engineer · Nairobi</title>
+<meta name="description" content="Paul Kamau Nyoike — Senior Full-Stack Developer | Odoo ERP Expert · FinTech · React · Node.js | Nairobi, Kenya"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
 <style>
-:root{--bg:#07100c;--bg2:#0c1710;--bg3:#111e16;--border:rgba(0,200,83,.1);--border2:rgba(0,200,83,.22);--green:#00C853;--gold:#FFD54F;--text:#ccd6cf;--dim:#5e7068;--bright:#edf4ef;--mono:'JetBrains Mono',monospace;--disp:'Syne',sans-serif;--body:'DM Sans',sans-serif;--r:8px;--glow:0 0 48px rgba(0,200,83,.12)}
+:root{--bg:#07100c;--bg2:#0c1710;--bg3:#111e16;--border:rgba(0,200,83,.1);--b2:rgba(0,200,83,.22);--g:#00C853;--gold:#FFD54F;--red:#FF5252;--text:#ccd6cf;--dim:#5e7068;--bright:#edf4ef;--mono:'JetBrains Mono',monospace;--disp:'Syne',sans-serif;--body:'DM Sans',sans-serif;--r:8px;--glow:0 0 48px rgba(0,200,83,.12)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.65;overflow-x:hidden;cursor:none}
 a{color:inherit;text-decoration:none}
-#cur{position:fixed;width:11px;height:11px;background:var(--green);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);mix-blend-mode:screen;transition:width .18s,height .18s}
+/* CURSOR */
+#cur{position:fixed;width:11px;height:11px;background:var(--g);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);mix-blend-mode:screen}
 #curR{position:fixed;width:34px;height:34px;border:1px solid rgba(0,200,83,.4);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .2s,height .2s,border-color .2s}
+/* GRID BG */
 body::before{content:'';position:fixed;inset:0;z-index:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,black 20%,transparent 100%);pointer-events:none}
 .wrap{max-width:1180px;margin:0 auto;padding:0 36px;position:relative;z-index:1}
-nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:15px 0;border-bottom:1px solid var(--border);background:rgba(7,16,12,.85);backdrop-filter:blur(20px)}
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:15px 0;border-bottom:1px solid var(--border);background:rgba(7,16,12,.88);backdrop-filter:blur(20px)}
 nav .ni{max-width:1180px;margin:0 auto;padding:0 36px;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.nlogo{font-family:var(--mono);font-size:13px;color:var(--green);letter-spacing:.04em}
+.nlogo{font-family:var(--mono);font-size:13px;color:var(--g);letter-spacing:.04em}
 .nlogo em{color:var(--dim);font-style:normal}
 .nlinks{display:flex;gap:26px}
 .nlinks a{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);transition:color .2s}
-.nlinks a:hover{color:var(--green)}
-.nloc{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.05em;white-space:nowrap}
-.ncta{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:8px 18px;border:1px solid var(--green);color:var(--green);border-radius:var(--r);transition:background .2s,color .2s;white-space:nowrap}
-.ncta:hover{background:var(--green);color:var(--bg)}
+.nlinks a:hover{color:var(--g)}
+.nloc{font-family:var(--mono);font-size:11px;color:var(--dim);white-space:nowrap}
+.ncta{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:8px 18px;border:1px solid var(--g);color:var(--g);border-radius:var(--r);transition:background .2s,color .2s;white-space:nowrap}
+.ncta:hover{background:var(--g);color:var(--bg)}
+/* HERO */
 #hero{min-height:100vh;padding-top:80px;display:flex;align-items:center;position:relative;overflow:hidden}
 .hglow{position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(0,200,83,.06) 0%,transparent 70%);pointer-events:none}
 .hgrid{display:grid;grid-template-columns:1fr 420px;gap:60px;align-items:center;width:100%}
-.hbadge{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--green);border:1px solid var(--border2);padding:6px 16px;border-radius:100px;margin-bottom:26px;width:fit-content;animation:up .7s ease both}
-.hdot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:blink 2s ease-in-out infinite}
+.hbadge{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--g);border:1px solid var(--b2);padding:6px 16px;border-radius:100px;margin-bottom:26px;width:fit-content;animation:up .7s ease both}
+.hdot{width:7px;height:7px;border-radius:50%;background:var(--g);animation:blink 2s ease-in-out infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 h1{font-family:var(--disp);font-size:clamp(40px,5.5vw,78px);font-weight:800;line-height:1.0;letter-spacing:-.025em;color:var(--bright);animation:up .7s .1s ease both}
-h1 .hi{color:var(--green)}
+h1 .hi{color:var(--g)}
 .hsub{margin-top:20px;font-size:17px;color:var(--dim);max-width:510px;line-height:1.75;animation:up .7s .18s ease both}
 .hloc{margin-top:12px;font-family:var(--mono);font-size:12px;color:var(--dim);display:flex;align-items:center;gap:8px;animation:up .7s .24s ease both}
-.hloc span{color:var(--green)}
+.hloc span{color:var(--g)}
 .hbtns{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap;animation:up .7s .3s ease both}
-.bg{font-family:var(--mono);font-size:13px;letter-spacing:.07em;padding:14px 28px;background:var(--green);color:var(--bg);border-radius:var(--r);font-weight:600;transition:transform .2s,box-shadow .2s}
+.bg{font-family:var(--mono);font-size:13px;letter-spacing:.07em;padding:14px 28px;background:var(--g);color:var(--bg);border-radius:var(--r);font-weight:600;transition:transform .2s,box-shadow .2s}
 .bg:hover{transform:translateY(-3px);box-shadow:0 10px 36px rgba(0,200,83,.35)}
-.bo{font-family:var(--mono);font-size:13px;letter-spacing:.07em;padding:14px 28px;border:1px solid var(--border2);color:var(--text);border-radius:var(--r);transition:border-color .2s,color .2s}
-.bo:hover{border-color:var(--green);color:var(--green)}
+.bo{font-family:var(--mono);font-size:13px;letter-spacing:.07em;padding:14px 28px;border:1px solid var(--b2);color:var(--text);border-radius:var(--r);transition:border-color .2s,color .2s}
+.bo:hover{border-color:var(--g);color:var(--g)}
 .hstats{display:flex;flex-direction:column;gap:14px;animation:up .7s .35s ease both}
 .sbox{border:1px solid var(--border);border-radius:12px;padding:20px 24px;background:var(--bg2);position:relative;overflow:hidden;transition:border-color .25s}
-.sbox:hover{border-color:var(--border2)}
-.sbox::after{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--green),transparent);opacity:.5}
+.sbox:hover{border-color:var(--b2)}
+.sbox::after{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent);opacity:.5}
 .sn{font-family:var(--mono);font-size:32px;font-weight:500;color:var(--bright);line-height:1}
 .sl{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-top:5px}
 @keyframes up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+/* MARQUEE */
 .mqbar{border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:13px 0;overflow:hidden;position:relative;z-index:1;background:var(--bg2)}
 .mqi{display:flex;gap:44px;animation:mq 35s linear infinite;width:max-content}
 .mqt{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);white-space:nowrap;display:flex;align-items:center;gap:12px}
-.mqt::before{content:'◆';color:var(--green);font-size:8px}
+.mqt::before{content:'◆';color:var(--g);font-size:8px}
 @keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 section{padding:96px 0;position:relative;z-index:1}
-.stag{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--green);margin-bottom:10px}
+.stag{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--g);margin-bottom:10px}
 h2{font-family:var(--disp);font-size:clamp(28px,3.5vw,46px);font-weight:700;letter-spacing:-.02em;color:var(--bright);margin-bottom:12px}
 .slead{font-size:16px;color:var(--dim);max-width:520px;line-height:1.7;margin-bottom:48px}
+/* SLIDESHOW */
 #showcase{background:var(--bg2)}
 .ss{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--border);background:var(--bg3)}
-.ss-bar{height:2px;background:var(--border);position:relative;overflow:hidden}
-.ss-fill{position:absolute;left:0;top:0;height:100%;background:var(--green);width:0%;transition:width .08s linear}
+.ss-bar{height:3px;background:var(--border);position:relative;overflow:hidden}
+.ss-fill{position:absolute;left:0;top:0;height:100%;background:var(--g);width:0%;transition:width .08s linear}
 .ss-track{display:flex;transition:transform .6s cubic-bezier(.76,0,.24,1)}
-.slide{min-width:100%;padding:52px 56px;display:grid;grid-template-columns:1fr 290px;gap:48px;align-items:center;flex-shrink:0}
-.sn2{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--green);text-transform:uppercase;margin-bottom:14px}
-.stitle{font-family:var(--disp);font-size:clamp(24px,3vw,38px);font-weight:800;letter-spacing:-.02em;color:var(--bright);margin-bottom:13px}
-.sdesc{font-size:15px;color:var(--text);line-height:1.75;margin-bottom:22px}
-.schips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:24px}
-.chip{font-family:var(--mono);font-size:10px;letter-spacing:.08em;padding:5px 12px;background:rgba(0,200,83,.07);border:1px solid var(--border2);border-radius:4px;color:var(--green)}
-.slink{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--green);display:inline-flex;align-items:center;gap:8px;border-bottom:1px solid var(--border2);padding-bottom:3px;transition:opacity .2s}
+.slide{min-width:100%;padding:48px 52px;display:grid;grid-template-columns:1fr 310px;gap:44px;align-items:center;flex-shrink:0}
+.sn2{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--g);text-transform:uppercase;margin-bottom:12px}
+.stitle{font-family:var(--disp);font-size:clamp(22px,3vw,36px);font-weight:800;letter-spacing:-.02em;color:var(--bright);margin-bottom:12px}
+.sdesc{font-size:15px;color:var(--text);line-height:1.75;margin-bottom:20px}
+.schips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:22px}
+.chip{font-family:var(--mono);font-size:10px;letter-spacing:.08em;padding:5px 12px;background:rgba(0,200,83,.07);border:1px solid var(--b2);border-radius:4px;color:var(--g)}
+.slink{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--g);display:inline-flex;align-items:center;gap:8px;border-bottom:1px solid var(--b2);padding-bottom:3px;transition:opacity .2s}
 .slink:hover{opacity:.65}
-.svis{border-radius:10px;background:var(--bg);border:1px solid var(--border);min-height:230px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.scode{font-family:var(--mono);font-size:11px;color:var(--dim);padding:22px;line-height:1.85;width:100%}
-.scode .kw{color:#c792ea}.scode .fn{color:#82aaff}.scode .str{color:#c3e88d}
-.scode .cm{color:var(--dim);font-style:italic}.scode .num{color:#FFD54F}
-.ss-foot{display:flex;justify-content:space-between;align-items:center;padding:18px 26px;border-top:1px solid var(--border);background:var(--bg2)}
+/* MOCKUP VISUALS */
+.svis{border-radius:12px;background:var(--bg);border:1px solid var(--border);min-height:240px;overflow:hidden;display:flex;flex-direction:column}
+.mock-bar{background:var(--bg3);padding:9px 14px;display:flex;align-items:center;gap:7px;border-bottom:1px solid var(--border);flex-shrink:0}
+.mock-dot{width:10px;height:10px;border-radius:50%}
+.mock-title{font-family:var(--mono);font-size:10px;color:var(--dim);margin-left:6px;letter-spacing:.06em}
+.mock-body{padding:16px;flex:1;overflow:hidden}
+/* ERP mockup */
+.erp-stat{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.erp-label{font-family:var(--mono);font-size:10px;color:var(--dim);width:72px;flex-shrink:0}
+.erp-bar-wrap{flex:1;background:rgba(255,255,255,.04);border-radius:3px;height:8px;overflow:hidden}
+.erp-bar-fill{height:100%;border-radius:3px;background:var(--g)}
+.erp-val{font-family:var(--mono);font-size:10px;color:var(--bright);width:60px;text-align:right;flex-shrink:0}
+.erp-badges{display:flex;gap:6px;margin-top:14px;flex-wrap:wrap}
+.ebadge{font-family:var(--mono);font-size:9px;padding:3px 9px;border-radius:3px;letter-spacing:.05em}
+.ebadge.ok{background:rgba(0,200,83,.12);border:1px solid rgba(0,200,83,.3);color:var(--g)}
+.ebadge.warn{background:rgba(255,213,79,.1);border:1px solid rgba(255,213,79,.3);color:var(--gold)}
+/* Payment mockup */
+.txn-row{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border)}
+.txn-row:last-child{border:none}
+.txn-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.txn-dot.ok{background:#00C853}.txn-dot.pend{background:#FFD54F}.txn-dot.fail{background:#FF5252}
+.txn-amt{font-family:var(--mono);font-size:11px;color:var(--bright);flex:1}
+.txn-prov{font-family:var(--mono);font-size:9px;color:var(--dim);background:var(--bg3);padding:2px 7px;border-radius:3px}
+.txn-stat{font-family:var(--mono);font-size:9px;letter-spacing:.05em}
+.txn-stat.ok{color:var(--g)}.txn-stat.pend{color:var(--gold)}.txn-stat.fail{color:var(--red)}
+.txn-meta{display:flex;justify-content:space-between;margin-top:10px;padding-top:8px;border-top:1px solid var(--border)}
+.txn-meta span{font-family:var(--mono);font-size:9px;color:var(--dim)}
+.txn-meta strong{color:var(--g)}
+/* API mockup */
+.api-row{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--border)}
+.api-row:last-child{border:none}
+.api-method{font-family:var(--mono);font-size:9px;padding:2px 7px;border-radius:3px;width:38px;text-align:center;flex-shrink:0}
+.m-post{background:rgba(130,170,255,.12);color:#82aaff}
+.m-get{background:rgba(0,200,83,.12);color:var(--g)}
+.m-put{background:rgba(255,213,79,.1);color:var(--gold)}
+.m-del{background:rgba(255,82,82,.1);color:var(--red)}
+.api-path{font-family:var(--mono);font-size:10px;color:var(--text);flex:1}
+.api-ms{font-family:var(--mono);font-size:9px;color:var(--dim);width:46px;text-align:right}
+.api-status{font-family:var(--mono);font-size:9px;width:24px;text-align:right}
+.s200{color:var(--g)}.s201{color:var(--g)}.s400{color:var(--red)}
+/* DevOps mockup */
+.pipe-stages{display:flex;align-items:center;gap:6px;margin-bottom:14px}
+.pipe-stage{font-family:var(--mono);font-size:9px;letter-spacing:.06em;padding:5px 10px;border-radius:4px;border:1px solid var(--border);color:var(--dim);display:flex;align-items:center;gap:5px}
+.pipe-stage.done{border-color:rgba(0,200,83,.4);color:var(--g);background:rgba(0,200,83,.06)}
+.pipe-stage.run{border-color:rgba(255,213,79,.4);color:var(--gold);background:rgba(255,213,79,.06)}
+.pipe-arrow{color:var(--dim);font-size:10px}
+.srv-row{display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border)}
+.srv-row:last-child{border:none}
+.srv-name{font-family:var(--mono);font-size:10px;color:var(--text)}
+.srv-bar-wrap{width:80px;background:rgba(255,255,255,.04);border-radius:3px;height:6px;overflow:hidden}
+.srv-bar-fill{height:100%;border-radius:3px}
+.srv-pct{font-family:var(--mono);font-size:9px;color:var(--dim);width:30px;text-align:right}
+/* Store mockup */
+.store-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:10px}
+.store-item{background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:8px;text-align:center}
+.store-img{width:100%;height:32px;border-radius:4px;margin-bottom:5px}
+.store-name{font-family:var(--mono);font-size:8px;color:var(--text);display:block;margin-bottom:2px}
+.store-price{font-family:var(--mono);font-size:9px;color:var(--g);display:block}
+.store-btn{width:100%;font-family:var(--mono);font-size:9px;letter-spacing:.06em;padding:6px;background:var(--g);color:var(--bg);border:none;border-radius:4px;cursor:pointer;text-align:center}
+/* SS controls */
+.ss-foot{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;border-top:1px solid var(--border);background:var(--bg2)}
 .ss-dots{display:flex;gap:8px;align-items:center}
-.ss-dot{width:6px;height:6px;border-radius:50%;background:var(--border2);cursor:pointer;transition:background .25s,transform .25s}
-.ss-dot.on{background:var(--green);transform:scale(1.5)}
+.ss-dot{width:6px;height:6px;border-radius:50%;background:var(--b2);cursor:pointer;transition:background .25s,transform .25s;border:none}
+.ss-dot.on{background:var(--g);transform:scale(1.5)}
 .ss-num{font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:.1em}
 .ss-arrows{display:flex;gap:10px}
-.ss-btn{width:38px;height:38px;border:1px solid var(--border2);border-radius:var(--r);background:transparent;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:15px;transition:border-color .2s,color .2s,background .2s}
-.ss-btn:hover{border-color:var(--green);color:var(--green);background:rgba(0,200,83,.06)}
-.svc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(252px,1fr));gap:1px;border:1px solid var(--border);border-radius:14px;overflow:hidden}
-.svc{padding:34px 30px;background:var(--bg2);transition:background .25s}
+.ss-btn{width:38px;height:38px;border:1px solid var(--b2);border-radius:var(--r);background:transparent;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:15px;transition:border-color .2s,color .2s,background .2s}
+.ss-btn:hover{border-color:var(--g);color:var(--g);background:rgba(0,200,83,.06)}
+/* SERVICES */
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1px;border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.svc{padding:32px 28px;background:var(--bg2);transition:background .25s}
 .svc:hover{background:var(--bg3)}
-.svc-ico{font-size:25px;margin-bottom:13px;display:block}
-.svct{font-family:var(--disp);font-size:17px;font-weight:700;color:var(--bright);margin-bottom:8px}
+.svc-ico{font-size:24px;margin-bottom:12px;display:block}
+.svct{font-family:var(--disp);font-size:16px;font-weight:700;color:var(--bright);margin-bottom:8px}
 .svcd{font-size:14px;color:var(--dim);line-height:1.65}
-.svc-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}
-.tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;padding:4px 10px;background:rgba(0,200,83,.07);border:1px solid var(--border2);border-radius:4px;color:var(--green)}
+.svc-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;padding:4px 10px;background:rgba(0,200,83,.07);border:1px solid var(--b2);border-radius:4px;color:var(--g)}
+/* CATALOGUE */
 #catalogue{background:var(--bg2)}
-.fbar{display:flex;gap:6px;flex-wrap:wrap;padding:5px;background:var(--bg3);border-radius:10px;border:1px solid var(--border);width:fit-content;margin-bottom:36px}
-.fbtn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:8px 16px;border-radius:6px;border:none;background:transparent;color:var(--dim);cursor:pointer;transition:background .2s,color .2s}
-.fbtn.on{background:var(--green);color:var(--bg);font-weight:600}
+.fbar{display:flex;gap:6px;flex-wrap:wrap;padding:5px;background:var(--bg3);border-radius:10px;border:1px solid var(--border);width:fit-content;margin-bottom:32px}
+.fbtn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:8px 15px;border-radius:6px;border:none;background:transparent;color:var(--dim);cursor:pointer;transition:background .2s,color .2s}
+.fbtn.on{background:var(--g);color:var(--bg);font-weight:600}
 .fbtn:hover:not(.on){color:var(--text);background:rgba(255,255,255,.04)}
-.cmeta{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px}
+.cmeta{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;flex-wrap:wrap;gap:12px}
 .cmeta p{font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:.07em}
-.cmeta p span{color:var(--green)}
+.cmeta p span{color:var(--g)}
 .csort{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.07em;display:flex;align-items:center;gap:8px}
 .csort select{font-family:var(--mono);font-size:11px;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:5px 10px;border-radius:6px;cursor:pointer}
 .cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
 .pcard{border:1px solid var(--border);border-radius:14px;background:var(--bg);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,box-shadow .25s;position:relative;overflow:hidden;cursor:pointer}
-.pcard:hover{transform:translateY(-5px);border-color:var(--border2);box-shadow:0 24px 60px rgba(0,0,0,.5),var(--glow)}
+.pcard:hover{transform:translateY(-5px);border-color:var(--b2);box-shadow:0 24px 60px rgba(0,0,0,.5),var(--glow)}
 .pcard-top{padding:22px 22px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
-.pico{width:40px;height:40px;border-radius:10px;background:rgba(0,200,83,.08);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
+.pico{width:40px;height:40px;border-radius:10px;background:rgba(0,200,83,.08);border:1px solid var(--b2);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
 .pm{flex:1;min-width:0}
 .pn{font-family:var(--disp);font-size:15px;font-weight:700;color:var(--bright);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pu{font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.06em;margin-top:3px}
 .pstars{font-family:var(--mono);font-size:11px;color:var(--dim);display:flex;align-items:center;gap:4px;flex-shrink:0}
 .pbody{padding:12px 22px 0}
-.pdesc{font-size:13px;color:var(--dim);line-height:1.6;min-height:50px}
+.pdesc{font-size:13px;color:var(--dim);line-height:1.6;min-height:48px}
 .pchips{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
-.pchip{font-family:var(--mono);font-size:9px;letter-spacing:.07em;padding:3px 8px;background:rgba(0,200,83,.06);border:1px solid var(--border);border-radius:3px;color:var(--green)}
+.pchip{font-family:var(--mono);font-size:9px;letter-spacing:.07em;padding:3px 8px;background:rgba(0,200,83,.06);border:1px solid var(--border);border-radius:3px;color:var(--g)}
 .pfoot{padding:14px 22px;display:flex;justify-content:space-between;align-items:center;margin-top:auto;border-top:1px solid var(--border)}
 .plang{font-family:var(--mono);font-size:11px;color:var(--dim);display:flex;align-items:center;gap:7px}
 .ldot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
-.plnk{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--green);transition:opacity .2s}
-.plnk:hover{opacity:.65}
+.plnk{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--g)}
 .pfeat{position:absolute;top:11px;right:11px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:3px 9px;background:rgba(255,213,79,.1);border:1px solid rgba(255,213,79,.3);border-radius:4px;color:var(--gold)}
 .cload,.cempty{grid-column:1/-1;text-align:center;padding:80px 24px}
-.spin{width:34px;height:34px;border:2px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:sp 1s linear infinite;margin:0 auto 14px}
+.spin{width:34px;height:34px;border:2px solid var(--border);border-top-color:var(--g);border-radius:50%;animation:sp 1s linear infinite;margin:0 auto 14px}
 @keyframes sp{to{transform:rotate(360deg)}}
 .cload p,.cempty p{font-family:var(--mono);font-size:13px;color:var(--dim)}
 .lmwrap{text-align:center;margin-top:40px}
-.lmbtn{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:13px 30px;border:1px solid var(--border2);color:var(--text);border-radius:var(--r);background:transparent;cursor:pointer;transition:border-color .2s,color .2s,background .2s}
-.lmbtn:hover{border-color:var(--green);color:var(--green);background:rgba(0,200,83,.05)}
+.lmbtn{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:13px 30px;border:1px solid var(--b2);color:var(--text);border-radius:var(--r);background:transparent;cursor:pointer;transition:border-color .2s,color .2s,background .2s}
+.lmbtn:hover{border-color:var(--g);color:var(--g);background:rgba(0,200,83,.05)}
 .lmbtn:disabled{opacity:.4;cursor:default}
+/* LANG COLORS */
 .lc-Python{background:#3572A5}.lc-JavaScript{background:#f1e05a}.lc-TypeScript{background:#2b7489}.lc-Shell{background:#89e051}.lc-HTML{background:#e34c26}.lc-CSS{background:#563d7c}.lc-PHP{background:#4F5D95}.lc-Go{background:#00ADD8}.lc-Rust{background:#dea584}.lc-Java{background:#b07219}.lc-default{background:#4a5568}
-.sg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:34px}
-.sgt{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--green);margin-bottom:13px}
+/* STACK */
+.sg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:32px}
+.sgt{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--g);margin-bottom:12px}
 .si{font-family:var(--mono);font-size:13px;color:var(--text);display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--border);transition:color .2s}
-.si:hover{color:var(--green)}
-.si::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--green);flex-shrink:0}
+.si:hover{color:var(--g)}
+.si::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--g);flex-shrink:0}
+/* CONTACT FORM */
 #contact{background:var(--bg2)}
-.cbox{border:1px solid var(--border);border-radius:18px;padding:68px;background:var(--bg3);text-align:center;position:relative;overflow:hidden}
-.cbox::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--green),transparent)}
-.cbox h2{text-align:center;margin-bottom:12px}
-.cbox .slead{margin:0 auto 36px;text-align:center}
-.clinks{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
-.clink{font-family:var(--mono);font-size:12px;letter-spacing:.08em;padding:12px 20px;border:1px solid var(--border2);border-radius:var(--r);color:var(--text);display:flex;align-items:center;gap:8px;transition:border-color .2s,color .2s,background .2s}
-.clink:hover{border-color:var(--green);color:var(--green);background:rgba(0,200,83,.05)}
+.cbox{border:1px solid var(--border);border-radius:18px;padding:64px;background:var(--bg3);position:relative;overflow:hidden}
+.cbox::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.contact-left h2{margin-bottom:12px}
+.contact-left .slead{margin-bottom:28px}
+.clinks{display:flex;flex-direction:column;gap:12px}
+.clink{font-family:var(--mono);font-size:12px;letter-spacing:.08em;padding:12px 18px;border:1px solid var(--b2);border-radius:var(--r);color:var(--text);display:flex;align-items:center;gap:10px;transition:border-color .2s,color .2s,background .2s;width:fit-content}
+.clink:hover{border-color:var(--g);color:var(--g);background:rgba(0,200,83,.05)}
+/* FORM */
+.cform{display:flex;flex-direction:column;gap:16px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fgroup{display:flex;flex-direction:column;gap:6px}
+.fgroup label{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.fgroup input,.fgroup textarea,.fgroup select{font-family:var(--mono);font-size:13px;background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:12px 14px;border-radius:var(--r);outline:none;transition:border-color .2s;width:100%;resize:none}
+.fgroup input:focus,.fgroup textarea:focus,.fgroup select:focus{border-color:var(--b2)}
+.fgroup textarea{min-height:110px}
+.fsubmit{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:14px 28px;background:var(--g);color:var(--bg);border:none;border-radius:var(--r);cursor:pointer;font-weight:600;transition:transform .2s,box-shadow .2s;align-self:flex-start}
+.fsubmit:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,200,83,.35)}
+.fsubmit:disabled{opacity:.6;cursor:default;transform:none}
+.form-msg{font-family:var(--mono);font-size:12px;padding:12px 16px;border-radius:var(--r);display:none}
+.form-msg.ok{background:rgba(0,200,83,.08);border:1px solid rgba(0,200,83,.3);color:var(--g)}
+.form-msg.err{background:rgba(255,82,82,.08);border:1px solid rgba(255,82,82,.3);color:var(--red)}
+/* FOOTER */
 footer{border-top:1px solid var(--border);padding:26px 0;position:relative;z-index:1}
 .fi{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
 footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.06em}
 .fr{display:flex;gap:22px}
 .fr a{font-family:var(--mono);font-size:11px;color:var(--dim);transition:color .2s}
-.fr a:hover{color:var(--green)}
+.fr a:hover{color:var(--g)}
+/* REVEAL */
 .rv{opacity:0;transform:translateY(28px);transition:opacity .55s ease,transform .55s ease}
 .rv.on{opacity:1;transform:none}
-@media(max-width:900px){.hgrid{grid-template-columns:1fr}.hstats{flex-direction:row}.slide{grid-template-columns:1fr}.svis{display:none}.nlinks,.nloc{display:none}.cbox{padding:38px 24px}}
-@media(max-width:600px){.wrap{padding:0 18px}nav .ni{padding:0 18px}.slide{padding:32px 24px}.cgrid{grid-template-columns:1fr}}
+/* RESPONSIVE */
+@media(max-width:1000px){.contact-grid{grid-template-columns:1fr}.clinks{flex-direction:row;flex-wrap:wrap}}
+@media(max-width:900px){.hgrid{grid-template-columns:1fr}.hstats{flex-direction:row}.slide{grid-template-columns:1fr}.svis{display:none}.nlinks,.nloc{display:none}.cbox{padding:36px 24px}}
+@media(max-width:600px){.wrap{padding:0 18px}nav .ni{padding:0 18px}.slide{padding:32px 22px}.cgrid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -171,7 +256,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
       <a href="#contact">Contact</a>
     </div>
     <div class="nloc">📍 Nairobi, Kenya</div>
-    <a href="mailto:nyoikepaul2@gmail.com" class="ncta">Hire Me</a>
+    <a href="#contact" class="ncta">Hire Me</a>
   </div>
 </nav>
 
@@ -186,7 +271,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
         <div class="hloc">📍 Based in <span>Nairobi, Kenya</span> · Serving US, UK &amp; EU clients</div>
         <div class="hbtns">
           <a href="#catalogue" class="bg">Browse Projects</a>
-          <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank" class="bo">Hire on Upwork</a>
+          <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank" rel="noopener" class="bo">Hire on Upwork</a>
         </div>
       </div>
       <div class="hstats">
@@ -201,6 +286,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
 
 <div class="mqbar"><div class="mqi" id="mq"></div></div>
 
+<!-- SLIDESHOW -->
 <section id="showcase">
   <div class="wrap">
     <div class="stag rv">Featured Work</div>
@@ -210,155 +296,178 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
       <div class="ss-bar"><div class="ss-fill" id="ssf"></div></div>
       <div class="ss-track" id="sst">
 
+        <!-- SLIDE 1: Odoo ERP -->
         <div class="slide">
           <div>
             <div class="sn2">01 / ERP Implementation</div>
             <div class="stitle">Odoo ERP Suite</div>
             <div class="sdesc">Custom Odoo v17 for a manufacturing SME — automated procurement workflows, real-time inventory sync, and integrated M-Pesa accounting. Reduced manual reconciliation by 80%.</div>
             <div class="schips"><span class="chip">Python</span><span class="chip">Odoo v17</span><span class="chip">PostgreSQL</span><span class="chip">M-Pesa API</span><span class="chip">XML-RPC</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
+            <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener" class="slink">View on GitHub ↗</a>
           </div>
-          <div class="svis"><div class="scode">
-<span class="cm"># Odoo Custom Module</span>
-<span class="kw">class</span> <span class="fn">MpesaPayment</span>(models.Model):
-  _inherit = <span class="str">'account.payment'</span>
-
-  phone = fields.Char(required=<span class="kw">True</span>)
-
-  <span class="kw">def</span> <span class="fn">action_stk_push</span>(self):
-    <span class="cm"># M-Pesa STK Push</span>
-    <span class="kw">return</span> mpesa.stk_push(
-      phone=self.phone,
-      amount=self.amount
-    )
-          </div></div>
+          <div class="svis">
+            <div class="mock-bar">
+              <div class="mock-dot" style="background:#FF5252"></div>
+              <div class="mock-dot" style="background:#FFD54F"></div>
+              <div class="mock-dot" style="background:#00C853"></div>
+              <span class="mock-title">Odoo · Inventory Dashboard</span>
+            </div>
+            <div class="mock-body">
+              <div class="erp-stat"><span class="erp-label">Inventory</span><div class="erp-bar-wrap"><div class="erp-bar-fill" style="width:84%;background:#00C853"></div></div><span class="erp-val">847 units</span></div>
+              <div class="erp-stat"><span class="erp-label">Invoices</span><div class="erp-bar-wrap"><div class="erp-bar-fill" style="width:70%;background:#82aaff"></div></div><span class="erp-val">KES 2.4M</span></div>
+              <div class="erp-stat"><span class="erp-label">Orders</span><div class="erp-bar-wrap"><div class="erp-bar-fill" style="width:52%;background:#FFD54F"></div></div><span class="erp-val">234 open</span></div>
+              <div class="erp-stat"><span class="erp-label">Suppliers</span><div class="erp-bar-wrap"><div class="erp-bar-fill" style="width:38%;background:#c792ea"></div></div><span class="erp-val">47 active</span></div>
+              <div class="erp-badges">
+                <span class="ebadge ok">✓ M-Pesa Linked</span>
+                <span class="ebadge ok">✓ Auto-Reconciled</span>
+                <span class="ebadge warn">⚠ 3 Low Stock</span>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <!-- SLIDE 2: Payment Gateway -->
         <div class="slide">
           <div>
             <div class="sn2">02 / FinTech</div>
             <div class="stitle">Payment Gateway Engine</div>
-            <div class="sdesc">Unified payment layer supporting M-Pesa, Stripe, and card transactions. FastAPI microservice handling 10k+ daily transactions with idempotency, retries, and webhook delivery.</div>
+            <div class="sdesc">Unified payment layer for M-Pesa, Stripe, and card transactions. FastAPI microservice handling 10k+ daily transactions with idempotency, retries, and webhook delivery.</div>
             <div class="schips"><span class="chip">FastAPI</span><span class="chip">Stripe</span><span class="chip">M-Pesa</span><span class="chip">Redis</span><span class="chip">Celery</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
+            <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener" class="slink">View on GitHub ↗</a>
           </div>
-          <div class="svis"><div class="scode">
-<span class="cm"># FastAPI payment route</span>
-<span class="fn">@router</span>.post(<span class="str">"/v1/charge"</span>)
-<span class="kw">async def</span> <span class="fn">create_charge</span>(
-  payload: ChargeSchema,
-  db: Session = Depends(get_db)
-):
-  txn = <span class="kw">await</span> svc.process(
-    provider=payload.provider,
-    amount=payload.amount,
-    key=payload.idempotency_key
-  )
-  <span class="kw">return</span> TxnResponse(**txn.dict())
-          </div></div>
+          <div class="svis">
+            <div class="mock-bar">
+              <div class="mock-dot" style="background:#FF5252"></div>
+              <div class="mock-dot" style="background:#FFD54F"></div>
+              <div class="mock-dot" style="background:#00C853"></div>
+              <span class="mock-title">PayEngine · Transactions</span>
+            </div>
+            <div class="mock-body">
+              <div class="txn-row"><div class="txn-dot ok"></div><span class="txn-amt">+KES 12,500</span><span class="txn-prov">M-Pesa</span><span class="txn-stat ok">✓ SUCCESS</span></div>
+              <div class="txn-row"><div class="txn-dot ok"></div><span class="txn-amt">+USD 249.00</span><span class="txn-prov">Stripe</span><span class="txn-stat ok">✓ SUCCESS</span></div>
+              <div class="txn-row"><div class="txn-dot ok"></div><span class="txn-amt">+KES 8,750</span><span class="txn-prov">M-Pesa</span><span class="txn-stat ok">✓ SUCCESS</span></div>
+              <div class="txn-row"><div class="txn-dot pend"></div><span class="txn-amt">+USD 99.00</span><span class="txn-prov">Stripe</span><span class="txn-stat pend">⏳ PENDING</span></div>
+              <div class="txn-meta"><span>Today: <strong>10,432 txns</strong></span><span>Uptime: <strong>99.7%</strong></span></div>
+            </div>
+          </div>
         </div>
 
+        <!-- SLIDE 3: REST/GraphQL API -->
         <div class="slide">
           <div>
             <div class="sn2">03 / Backend Architecture</div>
             <div class="stitle">Scalable REST &amp; GraphQL API</div>
             <div class="sdesc">NestJS + TypeScript microservices for a B2B SaaS. JWT auth, RBAC, rate limiting, OpenAPI docs, and Redis-backed job queue for async processing.</div>
             <div class="schips"><span class="chip">NestJS</span><span class="chip">TypeScript</span><span class="chip">GraphQL</span><span class="chip">Redis</span><span class="chip">JWT</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
+            <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener" class="slink">View on GitHub ↗</a>
           </div>
-          <div class="svis"><div class="scode">
-<span class="cm">// NestJS Auth Guard</span>
-<span class="fn">@Injectable</span>()
-<span class="kw">export class</span> <span class="fn">JwtGuard</span>
-  <span class="kw">extends</span> AuthGuard(<span class="str">'jwt'</span>) {
-
-  <span class="fn">canActivate</span>(ctx: ExecutionContext) {
-    <span class="kw">const</span> req = ctx
-      .switchToHttp().getRequest();
-    req.startTime = Date.now();
-    <span class="kw">return super</span>.canActivate(ctx);
-  }
-}
-          </div></div>
+          <div class="svis">
+            <div class="mock-bar">
+              <div class="mock-dot" style="background:#FF5252"></div>
+              <div class="mock-dot" style="background:#FFD54F"></div>
+              <div class="mock-dot" style="background:#00C853"></div>
+              <span class="mock-title">API · Endpoint Monitor</span>
+            </div>
+            <div class="mock-body">
+              <div class="api-row"><span class="api-method m-post">POST</span><span class="api-path">/v1/charge</span><span class="api-ms">142 ms</span><span class="api-status s201">201</span></div>
+              <div class="api-row"><span class="api-method m-get">GET</span><span class="api-path">/v1/users</span><span class="api-ms">38 ms</span><span class="api-status s200">200</span></div>
+              <div class="api-row"><span class="api-method m-put">PUT</span><span class="api-path">/v1/inventory/:id</span><span class="api-ms">95 ms</span><span class="api-status s200">200</span></div>
+              <div class="api-row"><span class="api-method m-post">POST</span><span class="api-path">/graphql</span><span class="api-ms">67 ms</span><span class="api-status s200">200</span></div>
+              <div class="api-row"><span class="api-method m-get">GET</span><span class="api-path">/health</span><span class="api-ms">4 ms</span><span class="api-status s200">200</span></div>
+            </div>
+          </div>
         </div>
 
+        <!-- SLIDE 4: DevOps -->
         <div class="slide">
           <div>
             <div class="sn2">04 / DevOps</div>
             <div class="stitle">Zero-Downtime Infrastructure</div>
-            <div class="sdesc">Docker-compose production stack on DigitalOcean with automated Nginx reverse proxy, Let's Encrypt SSL, GitHub Actions CI/CD, and daily backups to S3.</div>
+            <div class="sdesc">Docker-compose production stack on DigitalOcean — automated Nginx reverse proxy, Let's Encrypt SSL, GitHub Actions CI/CD, and daily backups to S3.</div>
             <div class="schips"><span class="chip">Docker</span><span class="chip">Nginx</span><span class="chip">GitHub Actions</span><span class="chip">AWS S3</span><span class="chip">Bash</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
+            <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener" class="slink">View on GitHub ↗</a>
           </div>
-          <div class="svis"><div class="scode">
-<span class="cm"># zero_downtime_deploy.sh</span>
-<span class="fn">deploy</span>() {
-  git pull origin main
-  docker compose pull
-  docker compose up -d \
-    --no-deps --build \
-    --scale api=<span class="num">2</span> api
-  sleep <span class="num">15</span>
-  docker compose up -d \
-    --scale api=<span class="num">1</span> api
-  <span class="fn">notify_slack</span> <span class="str">"Deployed"</span>
-}
-          </div></div>
+          <div class="svis">
+            <div class="mock-bar">
+              <div class="mock-dot" style="background:#FF5252"></div>
+              <div class="mock-dot" style="background:#FFD54F"></div>
+              <div class="mock-dot" style="background:#00C853"></div>
+              <span class="mock-title">CI/CD · Pipeline Status</span>
+            </div>
+            <div class="mock-body">
+              <div class="pipe-stages">
+                <div class="pipe-stage done">✓ Build</div>
+                <span class="pipe-arrow">→</span>
+                <div class="pipe-stage done">✓ Test</div>
+                <span class="pipe-arrow">→</span>
+                <div class="pipe-stage done">✓ Deploy</div>
+              </div>
+              <div class="srv-row"><span class="srv-name">api (2 replicas)</span><div class="srv-bar-wrap"><div class="srv-bar-fill" style="width:42%;background:#00C853"></div></div><span class="srv-pct" style="color:#00C853">42%</span></div>
+              <div class="srv-row"><span class="srv-name">nginx</span><div class="srv-bar-wrap"><div class="srv-bar-fill" style="width:18%;background:#82aaff"></div></div><span class="srv-pct">18%</span></div>
+              <div class="srv-row"><span class="srv-name">postgres</span><div class="srv-bar-wrap"><div class="srv-bar-fill" style="width:61%;background:#FFD54F"></div></div><span class="srv-pct" style="color:#FFD54F">61%</span></div>
+              <div class="srv-row"><span class="srv-name">redis</span><div class="srv-bar-wrap"><div class="srv-bar-fill" style="width:9%;background:#c792ea"></div></div><span class="srv-pct">9%</span></div>
+            </div>
+          </div>
         </div>
 
+        <!-- SLIDE 5: MedusaJS -->
         <div class="slide">
           <div>
             <div class="sn2">05 / E-Commerce</div>
             <div class="stitle">MedusaJS Storefront</div>
-            <div class="sdesc">Headless e-commerce for an East Africa retailer. Custom M-Pesa checkout plugin, inventory hooks, and multi-currency pricing engine built on MedusaJS + Next.js.</div>
+            <div class="sdesc">Headless e-commerce for an East Africa retailer. Custom M-Pesa checkout plugin, inventory hooks, and multi-currency pricing engine on MedusaJS + Next.js.</div>
             <div class="schips"><span class="chip">MedusaJS</span><span class="chip">Next.js</span><span class="chip">TypeScript</span><span class="chip">M-Pesa</span><span class="chip">Tailwind</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
+            <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener" class="slink">View on GitHub ↗</a>
           </div>
-          <div class="svis"><div class="scode">
-<span class="cm">// MedusaJS Payment Plugin</span>
-<span class="kw">export class</span> <span class="fn">MpesaProvider</span>
-  <span class="kw">extends</span> AbstractPaymentProvider {
-
-  <span class="kw">async</span> <span class="fn">initiatePayment</span>(
-    ctx: PaymentContext
-  ): Promise&lt;PaymentResponse&gt; {
-    <span class="kw">const</span> {phone,amount} = ctx;
-    <span class="kw">return</span> this.mpesa
-      .stkPush({phone,amount});
-  }
-}
-          </div></div>
+          <div class="svis">
+            <div class="mock-bar">
+              <div class="mock-dot" style="background:#FF5252"></div>
+              <div class="mock-dot" style="background:#FFD54F"></div>
+              <div class="mock-dot" style="background:#00C853"></div>
+              <span class="mock-title">ShopEA · Storefront</span>
+            </div>
+            <div class="mock-body">
+              <div class="store-grid">
+                <div class="store-item"><div class="store-img" style="background:linear-gradient(135deg,#1a2e20,#0c3d1a)"></div><span class="store-name">Organic Tea</span><span class="store-price">KES 850</span></div>
+                <div class="store-item"><div class="store-img" style="background:linear-gradient(135deg,#2e1a1a,#3d0c0c)"></div><span class="store-name">Coffee Blend</span><span class="store-price">KES 1,200</span></div>
+                <div class="store-item"><div class="store-img" style="background:linear-gradient(135deg,#1a1a2e,#0c0c3d)"></div><span class="store-name">Spice Kit</span><span class="store-price">KES 650</span></div>
+              </div>
+              <div class="store-btn">Pay with M-Pesa ↗</div>
+            </div>
+          </div>
         </div>
 
-      </div>
+      </div><!-- /track -->
       <div class="ss-foot">
         <div class="ss-dots" id="ssd"></div>
         <div class="ss-num"><span id="ssc">1</span> / <span id="sst2">5</span></div>
         <div class="ss-arrows">
-          <button class="ss-btn" id="ssp">←</button>
-          <button class="ss-btn" id="ssn">→</button>
+          <button class="ss-btn" id="ssp" aria-label="Previous">←</button>
+          <button class="ss-btn" id="ssn" aria-label="Next">→</button>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- SERVICES -->
 <section id="services">
   <div class="wrap">
     <div class="stag rv">Expertise</div>
     <h2 class="rv">What I Build</h2>
     <p class="slead rv">From FinTech payment engines to enterprise ERP — software that eliminates bottlenecks.</p>
     <div class="svc-grid rv">
-      <div class="svc"><span class="svc-ico">⚙️</span><div class="svct">Enterprise ERP</div><div class="svcd">End-to-end Odoo v16-v18, custom Python modules, automated workflows &amp; integrations.</div><div class="svc-tags"><span class="tag">Odoo</span><span class="tag">Python</span><span class="tag">PostgreSQL</span></div></div>
-      <div class="svc"><span class="svc-ico">💳</span><div class="svct">FinTech &amp; Payments</div><div class="svcd">M-Pesa &amp; Stripe integrations. Secure transaction engines built for scale.</div><div class="svc-tags"><span class="tag">M-Pesa</span><span class="tag">Stripe</span><span class="tag">FastAPI</span></div></div>
+      <div class="svc"><span class="svc-ico">⚙️</span><div class="svct">Enterprise ERP</div><div class="svcd">End-to-end Odoo v16-v18, custom Python modules, automated workflows &amp; third-party integrations.</div><div class="svc-tags"><span class="tag">Odoo</span><span class="tag">Python</span><span class="tag">PostgreSQL</span></div></div>
+      <div class="svc"><span class="svc-ico">💳</span><div class="svct">FinTech &amp; Payments</div><div class="svcd">M-Pesa &amp; Stripe integrations. Secure transaction engines built for scale and compliance.</div><div class="svc-tags"><span class="tag">M-Pesa</span><span class="tag">Stripe</span><span class="tag">FastAPI</span></div></div>
       <div class="svc"><span class="svc-ico">🔗</span><div class="svct">Backend Architecture</div><div class="svcd">Scalable REST &amp; GraphQL APIs. NestJS, FastAPI, Node.js microservices with AI/LLM logic.</div><div class="svc-tags"><span class="tag">NestJS</span><span class="tag">GraphQL</span><span class="tag">Redis</span></div></div>
       <div class="svc"><span class="svc-ico">🎨</span><div class="svct">Frontend &amp; Commerce</div><div class="svcd">React &amp; Next.js web apps, headless e-commerce with MedusaJS, and Tailwind UI systems.</div><div class="svc-tags"><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">MedusaJS</span></div></div>
-      <div class="svc"><span class="svc-ico">🛠️</span><div class="svct">DevOps &amp; Infrastructure</div><div class="svcd">Linux server automation, Docker, AWS/DigitalOcean provisioning, CI/CD pipelines.</div><div class="svc-tags"><span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">CI/CD</span></div></div>
+      <div class="svc"><span class="svc-ico">🛠️</span><div class="svct">DevOps &amp; Infrastructure</div><div class="svcd">Linux server automation, Docker, AWS/DigitalOcean provisioning, and CI/CD pipelines.</div><div class="svc-tags"><span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">CI/CD</span></div></div>
       <div class="svc"><span class="svc-ico">🐘</span><div class="svct">Laravel &amp; PHP</div><div class="svcd">Full-cycle Laravel applications — APIs, admin panels, SaaS backends, and database design.</div><div class="svc-tags"><span class="tag">Laravel</span><span class="tag">PHP</span><span class="tag">MySQL</span></div></div>
     </div>
   </div>
 </section>
 
+<!-- PROJECT CATALOGUE -->
 <section id="catalogue">
   <div class="wrap">
     <div class="stag rv">Open Source</div>
@@ -375,11 +484,13 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
     </div>
     <div class="cmeta">
       <p>Showing <span id="cs">—</span> of <span id="ct">—</span> projects</p>
-      <div class="csort">Sort: <select id="csort">
-        <option value="updated">Recently Updated</option>
-        <option value="stars">Most Stars</option>
-        <option value="name">A to Z</option>
-      </select></div>
+      <div class="csort">Sort:
+        <select id="csort">
+          <option value="updated">Recently Updated</option>
+          <option value="stars">Most Stars</option>
+          <option value="name">A to Z</option>
+        </select>
+      </div>
     </div>
     <div class="cgrid" id="cgrid">
       <div class="cload"><div class="spin"></div><p>Fetching repositories from GitHub...</p></div>
@@ -390,6 +501,7 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
   </div>
 </section>
 
+<!-- STACK -->
 <section id="stack">
   <div class="wrap">
     <div class="stag rv">Technology</div>
@@ -423,29 +535,68 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
   </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
   <div class="wrap">
     <div class="cbox rv">
-      <div class="stag" style="text-align:center;margin-bottom:10px">Let's build together</div>
-      <h2>Ready to scale your system?</h2>
-      <p class="slead">Whether you need an ERP overhaul, a payment integration, a full-stack web app, or high-performance backend APIs — I deliver clean, maintainable code that grows with your business. Based in Nairobi, working globally.</p>
-      <div class="clinks">
-        <a href="mailto:nyoikepaul2@gmail.com" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
-          nyoikepaul2@gmail.com
-        </a>
-        <a href="https://www.linkedin.com/in/paul-kamau-714a1a225/" target="_blank" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v2a6 6 0 0 1 2-1z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          LinkedIn
-        </a>
-        <a href="https://github.com/NyoikePaul" target="_blank" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          GitHub
-        </a>
-        <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-4.24 8.48-4.24-8.48"/></svg>
-          Hire on Upwork
-        </a>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <div class="stag" style="margin-bottom:10px">Get in touch</div>
+          <h2>Ready to build something great?</h2>
+          <p class="slead">Whether you need an ERP overhaul, payment integration, a full-stack web app, or backend APIs — I deliver clean, maintainable code. Based in Nairobi, working globally.</p>
+          <div class="clinks">
+            <a href="mailto:nyoikepaul2@gmail.com" class="clink">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+              nyoikepaul2@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/paul-kamau-714a1a225/" target="_blank" rel="noopener" class="clink">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v2a6 6 0 0 1 2-1z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener" class="clink">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank" rel="noopener" class="clink">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-4.24 8.48-4.24-8.48"/></svg>
+              Hire on Upwork
+            </a>
+          </div>
+        </div>
+        <!-- CONTACT FORM -->
+        <div>
+          <form class="cform" id="cform" novalidate>
+            <div class="form-row">
+              <div class="fgroup">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="name" placeholder="Your name" required />
+              </div>
+              <div class="fgroup">
+                <label for="femail">Email</label>
+                <input type="email" id="femail" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="fgroup">
+              <label for="fservice">Service needed</label>
+              <select id="fservice" name="service">
+                <option value="">Select a service...</option>
+                <option>Odoo ERP Implementation</option>
+                <option>M-Pesa / Stripe Integration</option>
+                <option>Backend API Development</option>
+                <option>Frontend / React App</option>
+                <option>DevOps / Infrastructure</option>
+                <option>Laravel / PHP Project</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="fgroup">
+              <label for="fmsg">Message</label>
+              <textarea id="fmsg" name="message" placeholder="Describe your project or requirements..." required></textarea>
+            </div>
+            <div class="form-msg" id="fmsg-status"></div>
+            <button type="submit" class="fsubmit" id="fsubmit">Send Message →</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -456,8 +607,8 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
     <div class="fi">
       <p>© 2026 Paul Kamau Nyoike · Nairobi, Kenya · Built with purpose</p>
       <div class="fr">
-        <a href="https://github.com/NyoikePaul" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/paul-kamau-714a1a225/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/paul-kamau-714a1a225/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="mailto:nyoikepaul2@gmail.com">Email</a>
       </div>
     </div>
@@ -465,43 +616,78 @@ footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:
 </footer>
 
 <script>
+/* ── CURSOR ─────────────────────────────── */
 const C=document.getElementById('cur'),R=document.getElementById('curR');
 let mx=0,my=0,rx=0,ry=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;C.style.left=mx+'px';C.style.top=my+'px'});
-(function loop(){rx+=(mx-rx)*.1;ry+=(my-ry)*.1;R.style.left=rx+'px';R.style.top=ry+'px';requestAnimationFrame(loop)})();
+document.addEventListener('mousemove',e=>{
+  mx=e.clientX;my=e.clientY;
+  C.style.left=mx+'px';C.style.top=my+'px';
+});
+(function loop(){
+  rx+=(mx-rx)*.1;ry+=(my-ry)*.1;
+  R.style.left=rx+'px';R.style.top=ry+'px';
+  requestAnimationFrame(loop);
+})();
+document.querySelectorAll('a,button,input,textarea,select').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{R.style.width='48px';R.style.height='48px';R.style.borderColor='var(--g)'});
+  el.addEventListener('mouseleave',()=>{R.style.width='34px';R.style.height='34px';R.style.borderColor='rgba(0,200,83,.4)'});
+});
 
+/* ── MARQUEE ────────────────────────────── */
 const TK=['Python','FastAPI','NestJS','Node.js','TypeScript','React','Next.js','Odoo ERP','PostgreSQL','Docker','AWS','M-Pesa','Stripe','Supabase','GraphQL','Redis','Linux','CI/CD','MedusaJS','DigitalOcean','GitHub Actions','REST APIs','FinTech','ERP Systems','Laravel','PHP','Full-Stack','Nairobi · Kenya'];
 document.getElementById('mq').innerHTML=[...TK,...TK].map(t=>'<span class="mqt">'+t+'</span>').join('');
 
-(()=>{
-  const track=document.getElementById('sst'),dotsEl=document.getElementById('ssd'),
-        curEl=document.getElementById('ssc'),bar=document.getElementById('ssf');
-  const slides=track.querySelectorAll('.slide');
-  const N=slides.length;
-  let ci=0,tmr,prog=0,paused=false;
+/* ── SLIDESHOW ──────────────────────────── */
+(function(){
+  var track=document.getElementById('sst');
+  var dotsEl=document.getElementById('ssd');
+  var curEl=document.getElementById('ssc');
+  var bar=document.getElementById('ssf');
+  var slides=track.querySelectorAll('.slide');
+  var N=slides.length;
+  var ci=0,tmr=null,prog=0,paused=false;
   document.getElementById('sst2').textContent=N;
-  for(let i=0;i<N;i++){
-    const d=document.createElement('div');
-    d.className='ss-dot'+(i===0?' on':'');
-    d.onclick=()=>go(i);
-    dotsEl.appendChild(d);
+  for(var i=0;i<N;i++){
+    (function(idx){
+      var d=document.createElement('button');
+      d.className='ss-dot'+(idx===0?' on':'');
+      d.setAttribute('aria-label','Slide '+(idx+1));
+      d.onclick=function(){go(idx)};
+      dotsEl.appendChild(d);
+    })(i);
   }
-  function go(n){ci=((n%N)+N)%N;track.style.transform='translateX(-'+ci*100+'%)';dotsEl.querySelectorAll('.ss-dot').forEach((d,i)=>d.classList.toggle('on',i===ci));curEl.textContent=ci+1;reset()}
-  function reset(){clearInterval(tmr);prog=0;bar.style.width='0%';if(paused)return;tmr=setInterval(()=>{prog+=100/(50*4.5);bar.style.width=prog+'%';if(prog>=100)go(ci+1)},20)}
-  document.getElementById('ssn').onclick=()=>go(ci+1);
-  document.getElementById('ssp').onclick=()=>go(ci-1);
-  const ss=document.querySelector('.ss');
-  ss.addEventListener('mouseenter',()=>{paused=true;reset()});
-  ss.addEventListener('mouseleave',()=>{paused=false;reset()});
-  let tx=0;
-  ss.addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});
-  ss.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40)go(dx<0?ci+1:ci-1)});
+  function go(n){
+    ci=((n%N)+N)%N;
+    track.style.transform='translateX(-'+ci*100+'%)';
+    dotsEl.querySelectorAll('.ss-dot').forEach(function(d,i){d.classList.toggle('on',i===ci)});
+    curEl.textContent=ci+1;
+    reset();
+  }
+  function reset(){
+    if(tmr)clearInterval(tmr);
+    prog=0;bar.style.width='0%';
+    if(paused)return;
+    tmr=setInterval(function(){
+      prog+=100/(50*4.5);
+      bar.style.width=prog+'%';
+      if(prog>=100)go(ci+1);
+    },20);
+  }
+  document.getElementById('ssn').onclick=function(){go(ci+1)};
+  document.getElementById('ssp').onclick=function(){go(ci-1)};
+  var ss=document.querySelector('.ss');
+  ss.addEventListener('mouseenter',function(){paused=true;reset()});
+  ss.addEventListener('mouseleave',function(){paused=false;reset()});
+  var tx=0;
+  ss.addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+  ss.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40)go(dx<0?ci+1:ci-1)});
   reset();
 })();
 
-function lcls(l){const m={Python:1,JavaScript:1,TypeScript:1,Shell:1,HTML:1,CSS:1,PHP:1,Go:1,Rust:1,Java:1};return m[l]?'lc-'+l:'lc-default'}
+/* ── CATALOGUE HELPERS ──────────────────── */
+function lcls(l){var m={Python:1,JavaScript:1,TypeScript:1,Shell:1,HTML:1,CSS:1,PHP:1,Go:1,Rust:1,Java:1};return m[l]?'lc-'+l:'lc-default'}
 function pico(lang,name){
-  const n=name.toLowerCase();
+  var n=name.toLowerCase();
   if(/mpesa|payment|stripe|fintech/.test(n))return'💳';
   if(/odoo|erp/.test(n))return'⚙️';
   if(/api|backend|server/.test(n))return'🔗';
@@ -516,7 +702,7 @@ function pico(lang,name){
 }
 function fgrp(l){
   if(!l)return'other';
-  const lo=l.toLowerCase();
+  var lo=l.toLowerCase();
   if(lo==='python')return'python';
   if(lo==='typescript')return'typescript';
   if(lo==='javascript')return'javascript';
@@ -525,7 +711,7 @@ function fgrp(l){
   return'other';
 }
 function ago(iso){
-  const s=Math.floor((Date.now()-new Date(iso))/1000);
+  var s=Math.floor((Date.now()-new Date(iso))/1000);
   if(s<60)return'just now';
   if(s<3600)return Math.floor(s/60)+'m ago';
   if(s<86400)return Math.floor(s/3600)+'h ago';
@@ -534,692 +720,159 @@ function ago(iso){
   return Math.floor(s/31536000)+'y ago';
 }
 
-let ALL=[],FILT=[],PAGE=9,shown=0,AF='all',AS='updated';
+/* ── CATALOGUE ENGINE ───────────────────── */
+var ALL=[],FILT=[],PAGE=9,shown=0,AF='all',AS='updated';
 
 function card(r){
-  const nm=r.name.replace(/[-_]/g,' ');
-  const desc=r.description||'No description provided.';
-  const lang=r.language||'Misc';
-  const lc=lcls(r.language);
-  const chips=[lang,...(r.topics||[]).slice(0,2)].filter(Boolean);
-  const feat=r.stargazers_count>0;
-  return '<div class="pcard" onclick="window.open(\''+r.html_url+'\',\'_blank\')">'
+  var nm=r.name.replace(/[-_]/g,' ');
+  var desc=r.description||'No description provided.';
+  var lang=r.language||'Misc';
+  var lc=lcls(r.language);
+  var chips=[lang].concat((r.topics||[]).slice(0,2)).filter(Boolean);
+  var feat=r.stargazers_count>0;
+  var chipsHtml=chips.map(function(c){return'<span class="pchip">'+c+'</span>'}).join('');
+  return '<div class="pcard" role="link" tabindex="0" onclick="window.open(\''+r.html_url+'\',\'_blank\')" onkeypress="if(event.key===\'Enter\')window.open(\''+r.html_url+'\',\'_blank\')">'
     +(feat?'<div class="pfeat">★ Featured</div>':'')
     +'<div class="pcard-top">'
     +'<div class="pico">'+pico(lang,r.name)+'</div>'
-    +'<div class="pm"><div class="pn">'+nm+'</div><div class="pu">'+ago(r.updated_at)+'</div></div>'
+    +'<div class="pm"><div class="pn">'+nm+'</div><div class="pu">Updated '+ago(r.updated_at)+'</div></div>'
     +(r.stargazers_count>0?'<div class="pstars">★ '+r.stargazers_count+'</div>':'')
     +'</div>'
     +'<div class="pbody"><div class="pdesc">'+desc+'</div>'
-    +'<div class="pchips">'+chips.map(c=>'<span class="pchip">'+c+'</span>').join('')+'</div></div>'
+    +'<div class="pchips">'+chipsHtml+'</div></div>'
     +'<div class="pfoot"><div class="plang"><span class="ldot '+lc+'"></span>'+lang+'</div>'
-    +'<span class="plnk">View ↗</span></div></div>';
+    +'<span class="plnk">View on GitHub ↗</span></div></div>';
 }
 
 function applyFS(){
-  let a=[...ALL];
-  if(AF!=='all')a=a.filter(r=>fgrp(r.language)===AF);
-  if(AS==='stars')a.sort((x,y)=>y.stargazers_count-x.stargazers_count);
-  else if(AS==='name')a.sort((x,y)=>x.name.localeCompare(y.name));
-  else a.sort((x,y)=>new Date(y.updated_at)-new Date(x.updated_at));
+  var a=ALL.slice();
+  if(AF!=='all')a=a.filter(function(r){return fgrp(r.language)===AF});
+  if(AS==='stars')a.sort(function(x,y){return y.stargazers_count-x.stargazers_count});
+  else if(AS==='name')a.sort(function(x,y){return x.name.localeCompare(y.name)});
+  else a.sort(function(x,y){return new Date(y.updated_at)-new Date(x.updated_at)});
   FILT=a;shown=0;renderPage();
 }
 
 function renderPage(){
-  const g=document.getElementById('cgrid');
-  const batch=FILT.slice(shown,shown+PAGE);
+  var g=document.getElementById('cgrid');
+  var batch=FILT.slice(shown,shown+PAGE);
   shown+=batch.length;
   if(shown===batch.length){
-    g.innerHTML=batch.length?batch.map(card).join(''):'<div class="cempty"><p>No projects match this filter.</p></div>';
+    if(batch.length){
+      g.innerHTML=batch.map(card).join('');
+    }else{
+      g.innerHTML='<div class="cempty"><p>No projects match this filter.</p></div>';
+    }
     reveal();
-  }else{batch.forEach(r=>g.insertAdjacentHTML('beforeend',card(r)));reveal()}
+  }else{
+    batch.forEach(function(r){g.insertAdjacentHTML('beforeend',card(r))});
+    reveal();
+  }
   document.getElementById('cs').textContent=shown;
   document.getElementById('ct').textContent=FILT.length;
-  const lmw=document.getElementById('lmw'),lmb=document.getElementById('lmb');
-  if(shown<FILT.length){lmw.style.display='block';lmb.disabled=false;lmb.textContent='Load More ('+(FILT.length-shown)+' remaining)'}
-  else lmw.style.display='none';
-}
-
-async function loadRepos(){
-  try{
-    const r=await fetch('https://api.github.com/users/NyoikePaul/repos?per_page=100&type=public');
-    if(!r.ok)throw 0;
-    const d=await r.json();
-    ALL=d.filter(r=>!r.fork&&r.name!=='NyoikePaul').sort((a,b)=>new Date(b.updated_at)-new Date(a.updated_at));
-    document.getElementById('hrc').textContent=ALL.length;
-    applyFS();
-  }catch{
-    document.getElementById('cgrid').innerHTML='<div class="cempty"><p>Could not load repos. <a href="https://github.com/NyoikePaul" target="_blank" style="color:var(--green)">View on GitHub ↗</a></p></div>';
+  var lmw=document.getElementById('lmw');
+  var lmb=document.getElementById('lmb');
+  if(shown<FILT.length){
+    lmw.style.display='block';
+    lmb.disabled=false;
+    lmb.textContent='Load More ('+(FILT.length-shown)+' remaining)';
+  }else{
+    lmw.style.display='none';
   }
 }
 
-document.getElementById('fbar').addEventListener('click',e=>{
-  const b=e.target.closest('.fbtn');if(!b)return;
-  document.querySelectorAll('.fbtn').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on');AF=b.dataset.f;applyFS();
+function loadRepos(){
+  fetch('https://api.github.com/users/NyoikePaul/repos?per_page=100&type=public')
+    .then(function(r){if(!r.ok)throw new Error('GitHub '+r.status);return r.json()})
+    .then(function(d){
+      ALL=d.filter(function(r){return !r.fork&&r.name!=='NyoikePaul'})
+           .sort(function(a,b){return new Date(b.updated_at)-new Date(a.updated_at)});
+      document.getElementById('hrc').textContent=ALL.length;
+      applyFS();
+    })
+    .catch(function(){
+      document.getElementById('cgrid').innerHTML='<div class="cempty"><p>Could not auto-load repos. <a href="https://github.com/NyoikePaul" target="_blank" rel="noopener" style="color:var(--g)">View on GitHub ↗</a></p></div>';
+    });
+}
+
+document.getElementById('fbar').addEventListener('click',function(e){
+  var b=e.target.closest('.fbtn');
+  if(!b)return;
+  document.querySelectorAll('.fbtn').forEach(function(x){x.classList.remove('on')});
+  b.classList.add('on');
+  AF=b.dataset.f;
+  applyFS();
 });
-document.getElementById('csort').addEventListener('change',e=>{AS=e.target.value;applyFS()});
+document.getElementById('csort').addEventListener('change',function(e){AS=e.target.value;applyFS()});
 document.getElementById('lmb').addEventListener('click',renderPage);
 
-function reveal(){
-  const obs=new IntersectionObserver(en=>{en.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');obs.unobserve(e.target)}})},{threshold:.08});
-  document.querySelectorAll('.rv:not(.on)').forEach(el=>obs.observe(el));
-}
-
-window.addEventListener('DOMContentLoaded',()=>{reveal();loadRepos()});
-</script>
-</body>
-</html>
-EOFcat > index.html << 'EOF'
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paul Kamau Nyoike | Senior Full-Stack & Backend Engineer · Nairobi</title>
-  <meta name="description" content="Paul Kamau Nyoike — Senior Full-Stack Developer | Expert in React, TypeScript, Node.js, Odoo ERP & FinTech Integrations | Nairobi, Kenya" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
-<style>
-:root{--bg:#07100c;--bg2:#0c1710;--bg3:#111e16;--border:rgba(0,200,83,.1);--border2:rgba(0,200,83,.22);--green:#00C853;--gold:#FFD54F;--text:#ccd6cf;--dim:#5e7068;--bright:#edf4ef;--mono:'JetBrains Mono',monospace;--disp:'Syne',sans-serif;--body:'DM Sans',sans-serif;--r:8px;--glow:0 0 48px rgba(0,200,83,.12)}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.65;overflow-x:hidden;cursor:none}
-a{color:inherit;text-decoration:none}
-#cur{position:fixed;width:11px;height:11px;background:var(--green);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);mix-blend-mode:screen;transition:width .18s,height .18s}
-#curR{position:fixed;width:34px;height:34px;border:1px solid rgba(0,200,83,.4);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:width .2s,height .2s,border-color .2s}
-body::before{content:'';position:fixed;inset:0;z-index:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,black 20%,transparent 100%);pointer-events:none}
-.wrap{max-width:1180px;margin:0 auto;padding:0 36px;position:relative;z-index:1}
-nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:15px 0;border-bottom:1px solid var(--border);background:rgba(7,16,12,.85);backdrop-filter:blur(20px)}
-nav .ni{max-width:1180px;margin:0 auto;padding:0 36px;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.nlogo{font-family:var(--mono);font-size:13px;color:var(--green);letter-spacing:.04em}
-.nlogo em{color:var(--dim);font-style:normal}
-.nlinks{display:flex;gap:26px}
-.nlinks a{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);transition:color .2s}
-.nlinks a:hover{color:var(--green)}
-.nloc{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.05em;white-space:nowrap}
-.ncta{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:8px 18px;border:1px solid var(--green);color:var(--green);border-radius:var(--r);transition:background .2s,color .2s;white-space:nowrap}
-.ncta:hover{background:var(--green);color:var(--bg)}
-#hero{min-height:100vh;padding-top:80px;display:flex;align-items:center;position:relative;overflow:hidden}
-.hglow{position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(0,200,83,.06) 0%,transparent 70%);pointer-events:none}
-.hgrid{display:grid;grid-template-columns:1fr 420px;gap:60px;align-items:center;width:100%}
-.hbadge{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--green);border:1px solid var(--border2);padding:6px 16px;border-radius:100px;margin-bottom:26px;width:fit-content;animation:up .7s ease both}
-.hdot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:blink 2s ease-in-out infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
-h1{font-family:var(--disp);font-size:clamp(40px,5.5vw,78px);font-weight:800;line-height:1.0;letter-spacing:-.025em;color:var(--bright);animation:up .7s .1s ease both}
-h1 .hi{color:var(--green)}
-.hsub{margin-top:20px;font-size:17px;color:var(--dim);max-width:510px;line-height:1.75;animation:up .7s .18s ease both}
-.hloc{margin-top:12px;font-family:var(--mono);font-size:12px;color:var(--dim);display:flex;align-items:center;gap:8px;animation:up .7s .24s ease both}
-.hloc span{color:var(--green)}
-.hbtns{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap;animation:up .7s .3s ease both}
-.bg{font-family:var(--mono);font-size:13px;letter-spacing:.07em;padding:14px 28px;background:var(--green);color:var(--bg);border-radius:var(--r);font-weight:600;transition:transform .2s,box-shadow .2s}
-.bg:hover{transform:translateY(-3px);box-shadow:0 10px 36px rgba(0,200,83,.35)}
-.bo{font-family:var(--mono);font-size:13px;letter-spacing:.07em;padding:14px 28px;border:1px solid var(--border2);color:var(--text);border-radius:var(--r);transition:border-color .2s,color .2s}
-.bo:hover{border-color:var(--green);color:var(--green)}
-.hstats{display:flex;flex-direction:column;gap:14px;animation:up .7s .35s ease both}
-.sbox{border:1px solid var(--border);border-radius:12px;padding:20px 24px;background:var(--bg2);position:relative;overflow:hidden;transition:border-color .25s}
-.sbox:hover{border-color:var(--border2)}
-.sbox::after{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--green),transparent);opacity:.5}
-.sn{font-family:var(--mono);font-size:32px;font-weight:500;color:var(--bright);line-height:1}
-.sl{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);margin-top:5px}
-@keyframes up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
-.mqbar{border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:13px 0;overflow:hidden;position:relative;z-index:1;background:var(--bg2)}
-.mqi{display:flex;gap:44px;animation:mq 35s linear infinite;width:max-content}
-.mqt{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);white-space:nowrap;display:flex;align-items:center;gap:12px}
-.mqt::before{content:'◆';color:var(--green);font-size:8px}
-@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-section{padding:96px 0;position:relative;z-index:1}
-.stag{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--green);margin-bottom:10px}
-h2{font-family:var(--disp);font-size:clamp(28px,3.5vw,46px);font-weight:700;letter-spacing:-.02em;color:var(--bright);margin-bottom:12px}
-.slead{font-size:16px;color:var(--dim);max-width:520px;line-height:1.7;margin-bottom:48px}
-#showcase{background:var(--bg2)}
-.ss{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--border);background:var(--bg3)}
-.ss-bar{height:2px;background:var(--border);position:relative;overflow:hidden}
-.ss-fill{position:absolute;left:0;top:0;height:100%;background:var(--green);width:0%;transition:width .08s linear}
-.ss-track{display:flex;transition:transform .6s cubic-bezier(.76,0,.24,1)}
-.slide{min-width:100%;padding:52px 56px;display:grid;grid-template-columns:1fr 290px;gap:48px;align-items:center;flex-shrink:0}
-.sn2{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--green);text-transform:uppercase;margin-bottom:14px}
-.stitle{font-family:var(--disp);font-size:clamp(24px,3vw,38px);font-weight:800;letter-spacing:-.02em;color:var(--bright);margin-bottom:13px}
-.sdesc{font-size:15px;color:var(--text);line-height:1.75;margin-bottom:22px}
-.schips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:24px}
-.chip{font-family:var(--mono);font-size:10px;letter-spacing:.08em;padding:5px 12px;background:rgba(0,200,83,.07);border:1px solid var(--border2);border-radius:4px;color:var(--green)}
-.slink{font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--green);display:inline-flex;align-items:center;gap:8px;border-bottom:1px solid var(--border2);padding-bottom:3px;transition:opacity .2s}
-.slink:hover{opacity:.65}
-.svis{border-radius:10px;background:var(--bg);border:1px solid var(--border);min-height:230px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.scode{font-family:var(--mono);font-size:11px;color:var(--dim);padding:22px;line-height:1.85;width:100%}
-.scode .kw{color:#c792ea}.scode .fn{color:#82aaff}.scode .str{color:#c3e88d}
-.scode .cm{color:var(--dim);font-style:italic}.scode .num{color:#FFD54F}
-.ss-foot{display:flex;justify-content:space-between;align-items:center;padding:18px 26px;border-top:1px solid var(--border);background:var(--bg2)}
-.ss-dots{display:flex;gap:8px;align-items:center}
-.ss-dot{width:6px;height:6px;border-radius:50%;background:var(--border2);cursor:pointer;transition:background .25s,transform .25s}
-.ss-dot.on{background:var(--green);transform:scale(1.5)}
-.ss-num{font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:.1em}
-.ss-arrows{display:flex;gap:10px}
-.ss-btn{width:38px;height:38px;border:1px solid var(--border2);border-radius:var(--r);background:transparent;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:15px;transition:border-color .2s,color .2s,background .2s}
-.ss-btn:hover{border-color:var(--green);color:var(--green);background:rgba(0,200,83,.06)}
-.svc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(252px,1fr));gap:1px;border:1px solid var(--border);border-radius:14px;overflow:hidden}
-.svc{padding:34px 30px;background:var(--bg2);transition:background .25s}
-.svc:hover{background:var(--bg3)}
-.svc-ico{font-size:25px;margin-bottom:13px;display:block}
-.svct{font-family:var(--disp);font-size:17px;font-weight:700;color:var(--bright);margin-bottom:8px}
-.svcd{font-size:14px;color:var(--dim);line-height:1.65}
-.svc-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}
-.tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;padding:4px 10px;background:rgba(0,200,83,.07);border:1px solid var(--border2);border-radius:4px;color:var(--green)}
-#catalogue{background:var(--bg2)}
-.fbar{display:flex;gap:6px;flex-wrap:wrap;padding:5px;background:var(--bg3);border-radius:10px;border:1px solid var(--border);width:fit-content;margin-bottom:36px}
-.fbtn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:8px 16px;border-radius:6px;border:none;background:transparent;color:var(--dim);cursor:pointer;transition:background .2s,color .2s}
-.fbtn.on{background:var(--green);color:var(--bg);font-weight:600}
-.fbtn:hover:not(.on){color:var(--text);background:rgba(255,255,255,.04)}
-.cmeta{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;flex-wrap:wrap;gap:12px}
-.cmeta p{font-family:var(--mono);font-size:12px;color:var(--dim);letter-spacing:.07em}
-.cmeta p span{color:var(--green)}
-.csort{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.07em;display:flex;align-items:center;gap:8px}
-.csort select{font-family:var(--mono);font-size:11px;background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:5px 10px;border-radius:6px;cursor:pointer}
-.cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
-.pcard{border:1px solid var(--border);border-radius:14px;background:var(--bg);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,box-shadow .25s;position:relative;overflow:hidden;cursor:pointer}
-.pcard:hover{transform:translateY(-5px);border-color:var(--border2);box-shadow:0 24px 60px rgba(0,0,0,.5),var(--glow)}
-.pcard-top{padding:22px 22px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
-.pico{width:40px;height:40px;border-radius:10px;background:rgba(0,200,83,.08);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
-.pm{flex:1;min-width:0}
-.pn{font-family:var(--disp);font-size:15px;font-weight:700;color:var(--bright);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.pu{font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.06em;margin-top:3px}
-.pstars{font-family:var(--mono);font-size:11px;color:var(--dim);display:flex;align-items:center;gap:4px;flex-shrink:0}
-.pbody{padding:12px 22px 0}
-.pdesc{font-size:13px;color:var(--dim);line-height:1.6;min-height:50px}
-.pchips{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
-.pchip{font-family:var(--mono);font-size:9px;letter-spacing:.07em;padding:3px 8px;background:rgba(0,200,83,.06);border:1px solid var(--border);border-radius:3px;color:var(--green)}
-.pfoot{padding:14px 22px;display:flex;justify-content:space-between;align-items:center;margin-top:auto;border-top:1px solid var(--border)}
-.plang{font-family:var(--mono);font-size:11px;color:var(--dim);display:flex;align-items:center;gap:7px}
-.ldot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
-.plnk{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--green);transition:opacity .2s}
-.plnk:hover{opacity:.65}
-.pfeat{position:absolute;top:11px;right:11px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:3px 9px;background:rgba(255,213,79,.1);border:1px solid rgba(255,213,79,.3);border-radius:4px;color:var(--gold)}
-.cload,.cempty{grid-column:1/-1;text-align:center;padding:80px 24px}
-.spin{width:34px;height:34px;border:2px solid var(--border);border-top-color:var(--green);border-radius:50%;animation:sp 1s linear infinite;margin:0 auto 14px}
-@keyframes sp{to{transform:rotate(360deg)}}
-.cload p,.cempty p{font-family:var(--mono);font-size:13px;color:var(--dim)}
-.lmwrap{text-align:center;margin-top:40px}
-.lmbtn{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:13px 30px;border:1px solid var(--border2);color:var(--text);border-radius:var(--r);background:transparent;cursor:pointer;transition:border-color .2s,color .2s,background .2s}
-.lmbtn:hover{border-color:var(--green);color:var(--green);background:rgba(0,200,83,.05)}
-.lmbtn:disabled{opacity:.4;cursor:default}
-.lc-Python{background:#3572A5}.lc-JavaScript{background:#f1e05a}.lc-TypeScript{background:#2b7489}.lc-Shell{background:#89e051}.lc-HTML{background:#e34c26}.lc-CSS{background:#563d7c}.lc-PHP{background:#4F5D95}.lc-Go{background:#00ADD8}.lc-Rust{background:#dea584}.lc-Java{background:#b07219}.lc-default{background:#4a5568}
-.sg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:34px}
-.sgt{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--green);margin-bottom:13px}
-.si{font-family:var(--mono);font-size:13px;color:var(--text);display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--border);transition:color .2s}
-.si:hover{color:var(--green)}
-.si::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--green);flex-shrink:0}
-#contact{background:var(--bg2)}
-.cbox{border:1px solid var(--border);border-radius:18px;padding:68px;background:var(--bg3);text-align:center;position:relative;overflow:hidden}
-.cbox::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--green),transparent)}
-.cbox h2{text-align:center;margin-bottom:12px}
-.cbox .slead{margin:0 auto 36px;text-align:center}
-.clinks{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
-.clink{font-family:var(--mono);font-size:12px;letter-spacing:.08em;padding:12px 20px;border:1px solid var(--border2);border-radius:var(--r);color:var(--text);display:flex;align-items:center;gap:8px;transition:border-color .2s,color .2s,background .2s}
-.clink:hover{border-color:var(--green);color:var(--green);background:rgba(0,200,83,.05)}
-footer{border-top:1px solid var(--border);padding:26px 0;position:relative;z-index:1}
-.fi{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
-footer p{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.06em}
-.fr{display:flex;gap:22px}
-.fr a{font-family:var(--mono);font-size:11px;color:var(--dim);transition:color .2s}
-.fr a:hover{color:var(--green)}
-.rv{opacity:0;transform:translateY(28px);transition:opacity .55s ease,transform .55s ease}
-.rv.on{opacity:1;transform:none}
-@media(max-width:900px){.hgrid{grid-template-columns:1fr}.hstats{flex-direction:row}.slide{grid-template-columns:1fr}.svis{display:none}.nlinks,.nloc{display:none}.cbox{padding:38px 24px}}
-@media(max-width:600px){.wrap{padding:0 18px}nav .ni{padding:0 18px}.slide{padding:32px 24px}.cgrid{grid-template-columns:1fr}}
-</style>
-</head>
-<body>
-<div id="cur"></div>
-<div id="curR"></div>
-
-<nav>
-  <div class="ni">
-    <div class="nlogo">paul<em>.</em>nyoike<em>()</em></div>
-    <div class="nlinks">
-      <a href="#showcase">Work</a>
-      <a href="#services">Services</a>
-      <a href="#catalogue">Projects</a>
-      <a href="#stack">Stack</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="nloc">📍 Nairobi, Kenya</div>
-    <a href="mailto:nyoikepaul2@gmail.com" class="ncta">Hire Me</a>
-  </div>
-</nav>
-
-<section id="hero">
-  <div class="hglow"></div>
-  <div class="wrap">
-    <div class="hgrid">
-      <div>
-        <div class="hbadge"><span class="hdot"></span>Available for hire</div>
-        <h1>Senior <span class="hi">Full-Stack</span><br />&amp; Backend<br />Engineer</h1>
-        <p class="hsub">I transform complex business requirements into clean, high-performance software — production-grade APIs, custom ERP systems, React frontends, and seamless payment integrations that scale effortlessly.</p>
-        <div class="hloc">📍 Based in <span>Nairobi, Kenya</span> · Serving US, UK &amp; EU clients</div>
-        <div class="hbtns">
-          <a href="#catalogue" class="bg">Browse Projects</a>
-          <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank" class="bo">Hire on Upwork</a>
-        </div>
-      </div>
-      <div class="hstats">
-        <div class="sbox"><div class="sn" id="hrc">—</div><div class="sl">Public Repos</div></div>
-        <div class="sbox"><div class="sn">4+</div><div class="sl">Years Experience</div></div>
-        <div class="sbox"><div class="sn">3</div><div class="sl">Continents Served</div></div>
-        <div class="sbox"><div class="sn">NBO</div><div class="sl">Nairobi · Kenya</div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="mqbar"><div class="mqi" id="mq"></div></div>
-
-<section id="showcase">
-  <div class="wrap">
-    <div class="stag rv">Featured Work</div>
-    <h2 class="rv">Case Studies</h2>
-    <p class="slead rv">Selected projects showcasing end-to-end engineering depth.</p>
-    <div class="ss rv">
-      <div class="ss-bar"><div class="ss-fill" id="ssf"></div></div>
-      <div class="ss-track" id="sst">
-
-        <div class="slide">
-          <div>
-            <div class="sn2">01 / ERP Implementation</div>
-            <div class="stitle">Odoo ERP Suite</div>
-            <div class="sdesc">Custom Odoo v17 for a manufacturing SME — automated procurement workflows, real-time inventory sync, and integrated M-Pesa accounting. Reduced manual reconciliation by 80%.</div>
-            <div class="schips"><span class="chip">Python</span><span class="chip">Odoo v17</span><span class="chip">PostgreSQL</span><span class="chip">M-Pesa API</span><span class="chip">XML-RPC</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
-          </div>
-          <div class="svis"><div class="scode">
-<span class="cm"># Odoo Custom Module</span>
-<span class="kw">class</span> <span class="fn">MpesaPayment</span>(models.Model):
-  _inherit = <span class="str">'account.payment'</span>
-
-  phone = fields.Char(required=<span class="kw">True</span>)
-
-  <span class="kw">def</span> <span class="fn">action_stk_push</span>(self):
-    <span class="cm"># M-Pesa STK Push</span>
-    <span class="kw">return</span> mpesa.stk_push(
-      phone=self.phone,
-      amount=self.amount
-    )
-          </div></div>
-        </div>
-
-        <div class="slide">
-          <div>
-            <div class="sn2">02 / FinTech</div>
-            <div class="stitle">Payment Gateway Engine</div>
-            <div class="sdesc">Unified payment layer supporting M-Pesa, Stripe, and card transactions. FastAPI microservice handling 10k+ daily transactions with idempotency, retries, and webhook delivery.</div>
-            <div class="schips"><span class="chip">FastAPI</span><span class="chip">Stripe</span><span class="chip">M-Pesa</span><span class="chip">Redis</span><span class="chip">Celery</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
-          </div>
-          <div class="svis"><div class="scode">
-<span class="cm"># FastAPI payment route</span>
-<span class="fn">@router</span>.post(<span class="str">"/v1/charge"</span>)
-<span class="kw">async def</span> <span class="fn">create_charge</span>(
-  payload: ChargeSchema,
-  db: Session = Depends(get_db)
-):
-  txn = <span class="kw">await</span> svc.process(
-    provider=payload.provider,
-    amount=payload.amount,
-    key=payload.idempotency_key
-  )
-  <span class="kw">return</span> TxnResponse(**txn.dict())
-          </div></div>
-        </div>
-
-        <div class="slide">
-          <div>
-            <div class="sn2">03 / Backend Architecture</div>
-            <div class="stitle">Scalable REST &amp; GraphQL API</div>
-            <div class="sdesc">NestJS + TypeScript microservices for a B2B SaaS. JWT auth, RBAC, rate limiting, OpenAPI docs, and Redis-backed job queue for async processing.</div>
-            <div class="schips"><span class="chip">NestJS</span><span class="chip">TypeScript</span><span class="chip">GraphQL</span><span class="chip">Redis</span><span class="chip">JWT</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
-          </div>
-          <div class="svis"><div class="scode">
-<span class="cm">// NestJS Auth Guard</span>
-<span class="fn">@Injectable</span>()
-<span class="kw">export class</span> <span class="fn">JwtGuard</span>
-  <span class="kw">extends</span> AuthGuard(<span class="str">'jwt'</span>) {
-
-  <span class="fn">canActivate</span>(ctx: ExecutionContext) {
-    <span class="kw">const</span> req = ctx
-      .switchToHttp().getRequest();
-    req.startTime = Date.now();
-    <span class="kw">return super</span>.canActivate(ctx);
+/* ── CONTACT FORM ───────────────────────── */
+document.getElementById('cform').addEventListener('submit',function(e){
+  e.preventDefault();
+  var btn=document.getElementById('fsubmit');
+  var msgEl=document.getElementById('fmsg-status');
+  var name=document.getElementById('fname').value.trim();
+  var email=document.getElementById('femail').value.trim();
+  var message=document.getElementById('fmsg').value.trim();
+  /* basic validation */
+  if(!name||!email||!message){
+    msgEl.textContent='Please fill in all required fields.';
+    msgEl.className='form-msg err';
+    msgEl.style.display='block';
+    return;
   }
-}
-          </div></div>
-        </div>
-
-        <div class="slide">
-          <div>
-            <div class="sn2">04 / DevOps</div>
-            <div class="stitle">Zero-Downtime Infrastructure</div>
-            <div class="sdesc">Docker-compose production stack on DigitalOcean with automated Nginx reverse proxy, Let's Encrypt SSL, GitHub Actions CI/CD, and daily backups to S3.</div>
-            <div class="schips"><span class="chip">Docker</span><span class="chip">Nginx</span><span class="chip">GitHub Actions</span><span class="chip">AWS S3</span><span class="chip">Bash</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
-          </div>
-          <div class="svis"><div class="scode">
-<span class="cm"># zero_downtime_deploy.sh</span>
-<span class="fn">deploy</span>() {
-  git pull origin main
-  docker compose pull
-  docker compose up -d \
-    --no-deps --build \
-    --scale api=<span class="num">2</span> api
-  sleep <span class="num">15</span>
-  docker compose up -d \
-    --scale api=<span class="num">1</span> api
-  <span class="fn">notify_slack</span> <span class="str">"Deployed"</span>
-}
-          </div></div>
-        </div>
-
-        <div class="slide">
-          <div>
-            <div class="sn2">05 / E-Commerce</div>
-            <div class="stitle">MedusaJS Storefront</div>
-            <div class="sdesc">Headless e-commerce for an East Africa retailer. Custom M-Pesa checkout plugin, inventory hooks, and multi-currency pricing engine built on MedusaJS + Next.js.</div>
-            <div class="schips"><span class="chip">MedusaJS</span><span class="chip">Next.js</span><span class="chip">TypeScript</span><span class="chip">M-Pesa</span><span class="chip">Tailwind</span></div>
-            <a href="https://github.com/NyoikePaul" target="_blank" class="slink">View on GitHub ↗</a>
-          </div>
-          <div class="svis"><div class="scode">
-<span class="cm">// MedusaJS Payment Plugin</span>
-<span class="kw">export class</span> <span class="fn">MpesaProvider</span>
-  <span class="kw">extends</span> AbstractPaymentProvider {
-
-  <span class="kw">async</span> <span class="fn">initiatePayment</span>(
-    ctx: PaymentContext
-  ): Promise&lt;PaymentResponse&gt; {
-    <span class="kw">const</span> {phone,amount} = ctx;
-    <span class="kw">return</span> this.mpesa
-      .stkPush({phone,amount});
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+    msgEl.textContent='Please enter a valid email address.';
+    msgEl.className='form-msg err';
+    msgEl.style.display='block';
+    return;
   }
-}
-          </div></div>
-        </div>
-
-      </div>
-      <div class="ss-foot">
-        <div class="ss-dots" id="ssd"></div>
-        <div class="ss-num"><span id="ssc">1</span> / <span id="sst2">5</span></div>
-        <div class="ss-arrows">
-          <button class="ss-btn" id="ssp">←</button>
-          <button class="ss-btn" id="ssn">→</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="services">
-  <div class="wrap">
-    <div class="stag rv">Expertise</div>
-    <h2 class="rv">What I Build</h2>
-    <p class="slead rv">From FinTech payment engines to enterprise ERP — software that eliminates bottlenecks.</p>
-    <div class="svc-grid rv">
-      <div class="svc"><span class="svc-ico">⚙️</span><div class="svct">Enterprise ERP</div><div class="svcd">End-to-end Odoo v16-v18, custom Python modules, automated workflows &amp; integrations.</div><div class="svc-tags"><span class="tag">Odoo</span><span class="tag">Python</span><span class="tag">PostgreSQL</span></div></div>
-      <div class="svc"><span class="svc-ico">💳</span><div class="svct">FinTech &amp; Payments</div><div class="svcd">M-Pesa &amp; Stripe integrations. Secure transaction engines built for scale.</div><div class="svc-tags"><span class="tag">M-Pesa</span><span class="tag">Stripe</span><span class="tag">FastAPI</span></div></div>
-      <div class="svc"><span class="svc-ico">🔗</span><div class="svct">Backend Architecture</div><div class="svcd">Scalable REST &amp; GraphQL APIs. NestJS, FastAPI, Node.js microservices with AI/LLM logic.</div><div class="svc-tags"><span class="tag">NestJS</span><span class="tag">GraphQL</span><span class="tag">Redis</span></div></div>
-      <div class="svc"><span class="svc-ico">🎨</span><div class="svct">Frontend &amp; Commerce</div><div class="svcd">React &amp; Next.js web apps, headless e-commerce with MedusaJS, and Tailwind UI systems.</div><div class="svc-tags"><span class="tag">React</span><span class="tag">Next.js</span><span class="tag">MedusaJS</span></div></div>
-      <div class="svc"><span class="svc-ico">🛠️</span><div class="svct">DevOps &amp; Infrastructure</div><div class="svcd">Linux server automation, Docker, AWS/DigitalOcean provisioning, CI/CD pipelines.</div><div class="svc-tags"><span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">CI/CD</span></div></div>
-      <div class="svc"><span class="svc-ico">🐘</span><div class="svct">Laravel &amp; PHP</div><div class="svcd">Full-cycle Laravel applications — APIs, admin panels, SaaS backends, and database design.</div><div class="svc-tags"><span class="tag">Laravel</span><span class="tag">PHP</span><span class="tag">MySQL</span></div></div>
-    </div>
-  </div>
-</section>
-
-<section id="catalogue">
-  <div class="wrap">
-    <div class="stag rv">Open Source</div>
-    <h2 class="rv">Project Catalogue</h2>
-    <p class="slead rv">All public repositories — filter by technology, sort by activity.</p>
-    <div class="fbar rv" id="fbar">
-      <button class="fbtn on" data-f="all">All</button>
-      <button class="fbtn" data-f="python">Python</button>
-      <button class="fbtn" data-f="typescript">TypeScript</button>
-      <button class="fbtn" data-f="javascript">JavaScript</button>
-      <button class="fbtn" data-f="php">Laravel / PHP</button>
-      <button class="fbtn" data-f="shell">Shell / DevOps</button>
-      <button class="fbtn" data-f="other">Other</button>
-    </div>
-    <div class="cmeta">
-      <p>Showing <span id="cs">—</span> of <span id="ct">—</span> projects</p>
-      <div class="csort">Sort: <select id="csort">
-        <option value="updated">Recently Updated</option>
-        <option value="stars">Most Stars</option>
-        <option value="name">A to Z</option>
-      </select></div>
-    </div>
-    <div class="cgrid" id="cgrid">
-      <div class="cload"><div class="spin"></div><p>Fetching repositories from GitHub...</p></div>
-    </div>
-    <div class="lmwrap" id="lmw" style="display:none">
-      <button class="lmbtn" id="lmb">Load More Projects</button>
-    </div>
-  </div>
-</section>
-
-<section id="stack">
-  <div class="wrap">
-    <div class="stag rv">Technology</div>
-    <h2 class="rv">Core Stack</h2>
-    <p class="slead rv">Tools I rely on daily to ship production systems.</p>
-    <div class="sg-grid rv">
-      <div>
-        <div class="sgt">Languages</div>
-        <div class="si">Python</div><div class="si">TypeScript</div>
-        <div class="si">JavaScript</div><div class="si">PHP / Laravel</div>
-        <div class="si">Bash / Shell</div><div class="si">SQL</div>
-      </div>
-      <div>
-        <div class="sgt">Frameworks</div>
-        <div class="si">FastAPI</div><div class="si">NestJS</div>
-        <div class="si">Node.js</div><div class="si">React / Next.js</div>
-        <div class="si">Laravel</div><div class="si">Odoo v16-v18</div>
-      </div>
-      <div>
-        <div class="sgt">Data &amp; Storage</div>
-        <div class="si">PostgreSQL</div><div class="si">Supabase</div>
-        <div class="si">Redis</div><div class="si">MongoDB</div><div class="si">MySQL</div>
-      </div>
-      <div>
-        <div class="sgt">Infrastructure</div>
-        <div class="si">Docker</div><div class="si">AWS</div>
-        <div class="si">DigitalOcean</div><div class="si">Linux / Ubuntu</div>
-        <div class="si">GitHub Actions</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="wrap">
-    <div class="cbox rv">
-      <div class="stag" style="text-align:center;margin-bottom:10px">Let's build together</div>
-      <h2>Ready to scale your system?</h2>
-      <p class="slead">Whether you need an ERP overhaul, a payment integration, a full-stack web app, or high-performance backend APIs — I deliver clean, maintainable code that grows with your business. Based in Nairobi, working globally.</p>
-      <div class="clinks">
-        <a href="mailto:nyoikepaul2@gmail.com" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
-          nyoikepaul2@gmail.com
-        </a>
-        <a href="https://www.linkedin.com/in/paul-kamau-714a1a225/" target="_blank" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4V9h4v2a6 6 0 0 1 2-1z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          LinkedIn
-        </a>
-        <a href="https://github.com/NyoikePaul" target="_blank" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          GitHub
-        </a>
-        <a href="https://www.upwork.com/freelancers/~01a905cc4c1df645ac" target="_blank" class="clink">
-          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-4.24 8.48-4.24-8.48"/></svg>
-          Hire on Upwork
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div class="fi">
-      <p>© 2026 Paul Kamau Nyoike · Nairobi, Kenya · Built with purpose</p>
-      <div class="fr">
-        <a href="https://github.com/NyoikePaul" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/paul-kamau-714a1a225/" target="_blank">LinkedIn</a>
-        <a href="mailto:nyoikepaul2@gmail.com">Email</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script>
-const C=document.getElementById('cur'),R=document.getElementById('curR');
-let mx=0,my=0,rx=0,ry=0;
-document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;C.style.left=mx+'px';C.style.top=my+'px'});
-(function loop(){rx+=(mx-rx)*.1;ry+=(my-ry)*.1;R.style.left=rx+'px';R.style.top=ry+'px';requestAnimationFrame(loop)})();
-
-const TK=['Python','FastAPI','NestJS','Node.js','TypeScript','React','Next.js','Odoo ERP','PostgreSQL','Docker','AWS','M-Pesa','Stripe','Supabase','GraphQL','Redis','Linux','CI/CD','MedusaJS','DigitalOcean','GitHub Actions','REST APIs','FinTech','ERP Systems','Laravel','PHP','Full-Stack','Nairobi · Kenya'];
-document.getElementById('mq').innerHTML=[...TK,...TK].map(t=>'<span class="mqt">'+t+'</span>').join('');
-
-(()=>{
-  const track=document.getElementById('sst'),dotsEl=document.getElementById('ssd'),
-        curEl=document.getElementById('ssc'),bar=document.getElementById('ssf');
-  const slides=track.querySelectorAll('.slide');
-  const N=slides.length;
-  let ci=0,tmr,prog=0,paused=false;
-  document.getElementById('sst2').textContent=N;
-  for(let i=0;i<N;i++){
-    const d=document.createElement('div');
-    d.className='ss-dot'+(i===0?' on':'');
-    d.onclick=()=>go(i);
-    dotsEl.appendChild(d);
-  }
-  function go(n){ci=((n%N)+N)%N;track.style.transform='translateX(-'+ci*100+'%)';dotsEl.querySelectorAll('.ss-dot').forEach((d,i)=>d.classList.toggle('on',i===ci));curEl.textContent=ci+1;reset()}
-  function reset(){clearInterval(tmr);prog=0;bar.style.width='0%';if(paused)return;tmr=setInterval(()=>{prog+=100/(50*4.5);bar.style.width=prog+'%';if(prog>=100)go(ci+1)},20)}
-  document.getElementById('ssn').onclick=()=>go(ci+1);
-  document.getElementById('ssp').onclick=()=>go(ci-1);
-  const ss=document.querySelector('.ss');
-  ss.addEventListener('mouseenter',()=>{paused=true;reset()});
-  ss.addEventListener('mouseleave',()=>{paused=false;reset()});
-  let tx=0;
-  ss.addEventListener('touchstart',e=>{tx=e.touches[0].clientX},{passive:true});
-  ss.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>40)go(dx<0?ci+1:ci-1)});
-  reset();
-})();
-
-function lcls(l){const m={Python:1,JavaScript:1,TypeScript:1,Shell:1,HTML:1,CSS:1,PHP:1,Go:1,Rust:1,Java:1};return m[l]?'lc-'+l:'lc-default'}
-function pico(lang,name){
-  const n=name.toLowerCase();
-  if(/mpesa|payment|stripe|fintech/.test(n))return'💳';
-  if(/odoo|erp/.test(n))return'⚙️';
-  if(/api|backend|server/.test(n))return'🔗';
-  if(/docker|infra|deploy|devops/.test(n))return'🐳';
-  if(/bot|ai|llm|ml/.test(n))return'🤖';
-  if(/shop|store|ecom|commerce/.test(n))return'🛒';
-  if(/auth|security|jwt/.test(n))return'🔐';
-  if(lang==='Python')return'🐍';
-  if(lang==='TypeScript'||lang==='JavaScript')return'⚡';
-  if(lang==='Shell')return'🖥️';
-  return'📦';
-}
-function fgrp(l){
-  if(!l)return'other';
-  const lo=l.toLowerCase();
-  if(lo==='python')return'python';
-  if(lo==='typescript')return'typescript';
-  if(lo==='javascript')return'javascript';
-  if(lo==='php')return'php';
-  if(lo==='shell'||lo==='dockerfile'||lo==='bash')return'shell';
-  return'other';
-}
-function ago(iso){
-  const s=Math.floor((Date.now()-new Date(iso))/1000);
-  if(s<60)return'just now';
-  if(s<3600)return Math.floor(s/60)+'m ago';
-  if(s<86400)return Math.floor(s/3600)+'h ago';
-  if(s<2592000)return Math.floor(s/86400)+'d ago';
-  if(s<31536000)return Math.floor(s/2592000)+'mo ago';
-  return Math.floor(s/31536000)+'y ago';
-}
-
-let ALL=[],FILT=[],PAGE=9,shown=0,AF='all',AS='updated';
-
-function card(r){
-  const nm=r.name.replace(/[-_]/g,' ');
-  const desc=r.description||'No description provided.';
-  const lang=r.language||'Misc';
-  const lc=lcls(r.language);
-  const chips=[lang,...(r.topics||[]).slice(0,2)].filter(Boolean);
-  const feat=r.stargazers_count>0;
-  return '<div class="pcard" onclick="window.open(\''+r.html_url+'\',\'_blank\')">'
-    +(feat?'<div class="pfeat">★ Featured</div>':'')
-    +'<div class="pcard-top">'
-    +'<div class="pico">'+pico(lang,r.name)+'</div>'
-    +'<div class="pm"><div class="pn">'+nm+'</div><div class="pu">'+ago(r.updated_at)+'</div></div>'
-    +(r.stargazers_count>0?'<div class="pstars">★ '+r.stargazers_count+'</div>':'')
-    +'</div>'
-    +'<div class="pbody"><div class="pdesc">'+desc+'</div>'
-    +'<div class="pchips">'+chips.map(c=>'<span class="pchip">'+c+'</span>').join('')+'</div></div>'
-    +'<div class="pfoot"><div class="plang"><span class="ldot '+lc+'"></span>'+lang+'</div>'
-    +'<span class="plnk">View ↗</span></div></div>';
-}
-
-function applyFS(){
-  let a=[...ALL];
-  if(AF!=='all')a=a.filter(r=>fgrp(r.language)===AF);
-  if(AS==='stars')a.sort((x,y)=>y.stargazers_count-x.stargazers_count);
-  else if(AS==='name')a.sort((x,y)=>x.name.localeCompare(y.name));
-  else a.sort((x,y)=>new Date(y.updated_at)-new Date(x.updated_at));
-  FILT=a;shown=0;renderPage();
-}
-
-function renderPage(){
-  const g=document.getElementById('cgrid');
-  const batch=FILT.slice(shown,shown+PAGE);
-  shown+=batch.length;
-  if(shown===batch.length){
-    g.innerHTML=batch.length?batch.map(card).join(''):'<div class="cempty"><p>No projects match this filter.</p></div>';
-    reveal();
-  }else{batch.forEach(r=>g.insertAdjacentHTML('beforeend',card(r)));reveal()}
-  document.getElementById('cs').textContent=shown;
-  document.getElementById('ct').textContent=FILT.length;
-  const lmw=document.getElementById('lmw'),lmb=document.getElementById('lmb');
-  if(shown<FILT.length){lmw.style.display='block';lmb.disabled=false;lmb.textContent='Load More ('+(FILT.length-shown)+' remaining)'}
-  else lmw.style.display='none';
-}
-
-async function loadRepos(){
-  try{
-    const r=await fetch('https://api.github.com/users/NyoikePaul/repos?per_page=100&type=public');
-    if(!r.ok)throw 0;
-    const d=await r.json();
-    ALL=d.filter(r=>!r.fork&&r.name!=='NyoikePaul').sort((a,b)=>new Date(b.updated_at)-new Date(a.updated_at));
-    document.getElementById('hrc').textContent=ALL.length;
-    applyFS();
-  }catch{
-    document.getElementById('cgrid').innerHTML='<div class="cempty"><p>Could not load repos. <a href="https://github.com/NyoikePaul" target="_blank" style="color:var(--green)">View on GitHub ↗</a></p></div>';
-  }
-}
-
-document.getElementById('fbar').addEventListener('click',e=>{
-  const b=e.target.closest('.fbtn');if(!b)return;
-  document.querySelectorAll('.fbtn').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on');AF=b.dataset.f;applyFS();
+  btn.disabled=true;
+  btn.textContent='Sending...';
+  msgEl.style.display='none';
+  /* Send via Formspree — replace YOUR_FORM_ID after signing up at formspree.io */
+  fetch('https://formspree.io/f/YOUR_FORM_ID',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({name:name,email:email,service:document.getElementById('fservice').value,message:message})
+  })
+  .then(function(r){return r.json().then(function(d){return{ok:r.ok,data:d}})})
+  .then(function(res){
+    if(res.ok){
+      msgEl.textContent='Message sent! I will get back to you within 24 hours.';
+      msgEl.className='form-msg ok';
+      document.getElementById('cform').reset();
+    }else{
+      throw new Error(res.data.error||'Submission failed');
+    }
+  })
+  .catch(function(){
+    /* Fallback: open mailto if Formspree not configured */
+    var subject=encodeURIComponent('Project Inquiry from '+name);
+    var body=encodeURIComponent('Name: '+name+'\nEmail: '+email+'\nService: '+document.getElementById('fservice').value+'\n\nMessage:\n'+message);
+    window.location.href='mailto:nyoikepaul2@gmail.com?subject='+subject+'&body='+body;
+    msgEl.textContent='Opening your email client as fallback...';
+    msgEl.className='form-msg ok';
+  })
+  .finally(function(){
+    msgEl.style.display='block';
+    btn.disabled=false;
+    btn.textContent='Send Message →';
+  });
 });
-document.getElementById('csort').addEventListener('change',e=>{AS=e.target.value;applyFS()});
-document.getElementById('lmb').addEventListener('click',renderPage);
 
+/* ── SCROLL REVEAL ──────────────────────── */
 function reveal(){
-  const obs=new IntersectionObserver(en=>{en.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');obs.unobserve(e.target)}})},{threshold:.08});
-  document.querySelectorAll('.rv:not(.on)').forEach(el=>obs.observe(el));
+  var obs=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('on');obs.unobserve(e.target)}
+    });
+  },{threshold:.08});
+  document.querySelectorAll('.rv:not(.on)').forEach(function(el){obs.observe(el)});
 }
 
-window.addEventListener('DOMContentLoaded',()=>{reveal();loadRepos()});
+/* ── INIT ───────────────────────────────── */
+window.addEventListener('DOMContentLoaded',function(){reveal();loadRepos()});
 </script>
 </body>
 </html>
