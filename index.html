@@ -830,8 +830,8 @@ document.getElementById('cform').addEventListener('submit',function(e){
   btn.disabled=true;
   btn.textContent='Sending...';
   msgEl.style.display='none';
-  /* Send via Formspree — replace YOUR_FORM_ID after signing up at formspree.io */
-  fetch('https://formspree.io/f/YOUR_FORM_ID',{
+  /* Send via Formspree — replace mykooppj after signing up at formspree.io */
+  fetch('https://formspree.io/f/mykooppj',{
     method:'POST',
     headers:{'Content-Type':'application/json','Accept':'application/json'},
     body:JSON.stringify({name:name,email:email,service:document.getElementById('fservice').value,message:message})
