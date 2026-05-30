@@ -1,91 +1,153 @@
-# 🚀 Senior Full-Stack Engineer & Enterprise Solutions Architect
+# 👋 Hi, I'm Paul Kamau
 
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://nyoike-paul.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-View%20Work-E4405F?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="mailto:YOUR_EMAIL@DOMAIN.COM"><img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+### Full-Stack Developer | Odoo ERP Engineer | DevOps Engineer
 
----
+I build enterprise-grade systems that help businesses automate operations, scale infrastructure, and improve decision-making.
 
-### 💡 Executive Value Proposition
-I engineer production-grade APIs, custom ERP infrastructures, and bulletproof payment integrations that eliminate operational bottlenecks and scale business operations globally. By focusing heavily on system resilience, performance, and clear architecture, I help enterprise clients and high-growth startups convert complex business workflows into high-performance software systems.
+## 🚀 What I Do
 
----
-
-## 🛠️ Tech Stack & Domain Expertise
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>💳 Fintech & Payment Orchestration</h4>
-      <ul>
-        <li><b>Core Rails:</b> Production-grade M-Pesa Daraja API integrations, STK Push pipelines, automated webhook orchestration, and reconciliation ledgers.</li>
-        <li><b>Focus:</b> Asynchronous transaction handling, failure-recovery mechanisms, and high-security transactional data flow.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🎛️ Odoo ERP Customization</h4>
-      <ul>
-        <li><b>Versions:</b> Deep customization expertise across Odoo v16, v17, and v18.</li>
-        <li><b>Modules:</b> Advanced tailoring of Accounting journals, Inventory tracking, Sales management, Manufacturing (MRP) flows, and custom report formats.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>⚡ Backend & Database Infrastructure</h4>
-      <ul>
-        <li><b>Languages & Frameworks:</b> Python (FastAPI), Node.js (NestJS), TypeScript.</li>
-        <li><b>Databases:</b> Highly optimized PostgreSQL architectures, indexing, complex query tuning, and vectorized search with <code>pgvector</code>.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ DevOps & Cloud Automation</h4>
-      <ul>
-        <li><b>Toolkits:</b> Custom Bash automation scripts, cloud provisioning systems, and infrastructure provisioning.</li>
-        <li><b>Environments:</b> Linux server hardening, system daemon management, reverse proxy setups (Nginx), and automated application deployments.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+- ERP Development (Odoo)
+- Cloud Infrastructure
+- Kubernetes & DevOps
+- AI-Powered Applications
+- Backend API Development
+- Database Design & Optimization
 
 ---
 
-## 🚀 Featured Production Engineering
+## 🏆 Featured Projects
 
-#### 🏗️ **Nexus Flow** | *Enterprise Logistics & Fintech Monorepo*
-* **Overview:** A production-grade logistics engine incorporating resilient payment processing pipelines.
-* **Key Tech:** Node.js, NestJS, M-Pesa STK Push API, Webhook Worker Queues, PostgreSQL.
-* **Impact:** Solves double-spend errors and ensures 99.9% uptime for transaction status syncing via distributed webhooks.
+### Odoo ERP Platform
+Enterprise ERP system with:
 
-#### 🛠️ **Bash Cloud Forge Pro** | *Commercial DevOps & Provisioning Toolkit*
-* **Overview:** A modular Shell-based toolkit built for automated cloud infrastructure orchestration and server monitoring.
-* **Key Tech:** Bash, Linux Shell Scripting, Linux System Services, Security Hardening.
-* **Impact:** Standardizes bare-metal and cloud server provisioning, cutting manual backend configuration times by up to 80%.
+- Kenyan Localization
+- eTIMS Integration
+- M-Pesa Payments
+- Inventory Management
+- Accounting
+- CRM
+- HR & Payroll
 
-#### 💼 **BiasharaOS** | *Enterprise Business Management Platform*
-* **Overview:** A robust, comprehensive multi-tenant management system optimized for fast-paced retail and service environments.
-* **Key Tech:** Python, FastAPI, PostgreSQL (pgvector), Redis.
-* **Impact:** Built a resilient transactional layer handling concurrent ledger reads/writes cleanly.
-
----
-
-## 📊 Performance Metrics
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=NyoikePaul&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Paul's GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NyoikePaul&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" width="45%"/>
-</p>
+🔗 Repository:
+https://github.com/NyoikePaul/OdooERP
 
 ---
 
-## 🤝 Let's Build Something High-Performance
-I am actively open to enterprise-grade consulting roles, system auditing, and high-end software development contracts.
+### Kubernetes GKE Migration
 
-* **Available For:** Custom ERP implementation, payment rails engineering, API performance scaling, and backend architectures.
-* **How to reach me:** Drop an email directly or request a consultation calendar link via my [Portfolio website](https://nyoike-paul.vercel.app/).
+Production-ready migration platform featuring:
+
+- Terraform IaC
+- Kubernetes
+- CI/CD Pipelines
+- Monitoring
+- Logging
+- Disaster Recovery
+
+🔗 Repository:
+https://github.com/NyoikePaul/kubernetes-gke-migration
+
+---
+
+### AI/ML Integration Platform
+
+Business intelligence platform integrating:
+
+- Machine Learning
+- Predictive Analytics
+- REST APIs
+- Cloud Services
+
+🔗 Repository:
+https://github.com/NyoikePaul/AI-ml-integration
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+
+JavaScript
+TypeScript
+Python
+PHP
+SQL
+Bash
+
+### Backend
+
+Node.js
+NestJS
+FastAPI
+Laravel
+Django
+Odoo
+
+### DevOps
+
+Docker
+Kubernetes
+Terraform
+GitHub Actions
+NGINX
+
+### Cloud
+
+AWS
+Google Cloud
+DigitalOcean
+
+### Databases
+
+PostgreSQL
+MySQL
+Redis
+
+---
+
+## 📈 GitHub Stats
 
 <p align="center">
-  <sub>Managed with 💻 & ☕ using Bash Automation. Profile Views: <img src="https://komarev.com/ghpvc/?username=NyoikePaul&color=blue" alt="Profile Views" valign="middle"/></sub>
+<img src="https://github-readme-stats.vercel.app/api?username=NyoikePaul&show_icons=true" />
 </p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NyoikePaul" />
+</p>
+
+---
+
+## 🌍 Current Focus
+
+- Enterprise Odoo Solutions
+- Cloud Native Applications
+- Kubernetes Infrastructure
+- AI Business Systems
+
+---
+
+## 🤝 Available For
+
+✅ Freelance Projects
+
+✅ Contract Work
+
+✅ Odoo ERP Consulting
+
+✅ DevOps Engineering
+
+✅ Full Stack Development
+
+---
+
+## 📫 Contact
+
+LinkedIn:
+https://linkedin.com/in/paul-kamau-714a1a225
+
+GitHub:
+https://github.com/NyoikePaul
+
+Email:
+nyoikepaul2@gmail.com
+
