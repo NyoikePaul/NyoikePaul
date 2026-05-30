@@ -15,6 +15,15 @@ I build enterprise-grade systems that help businesses automate operations, scale
 
 ---
 
+## 📊 Impact
+
+- Built ERP solutions for Kenyan business workflows
+- Implemented M-Pesa and eTIMS integrations
+- Designed Kubernetes deployment architectures
+- Automated CI/CD pipelines using GitHub Actions
+- Developed AI-powered business automation tools
+
+
 ## 🏆 Featured Projects
 
 ### Odoo ERP Platform
