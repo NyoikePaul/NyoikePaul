@@ -1,13 +1,11 @@
 node_modules/
-.env
-.env.*
 dist/
 build/
+.env
+.env.*
 coverage/
 __pycache__/
 *.pyc
-.terraform/
-*.tfstate
 .vscode/
 .idea/
 .vercel/
