@@ -2,8 +2,7 @@ I design and deploy production-grade business systems that automate operations, 
 
 
   What I Do
-  --------------
-  --------------
+
   
 
 - Odoo ERP Development (custom modules, localization, integrations)
