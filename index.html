@@ -1,172 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paul Kamau | Odoo ERP & DevOps Engineer</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Paul Kamau | Odoo ERP & DevOps Engineer</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      line-height: 1.6;
-    }
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
 
-    header {
-      padding: 80px 20px;
-      text-align: center;
-      background: linear-gradient(135deg, #1e293b, #0f172a);
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
+body {
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
 
-    header p {
-      font-size: 18px;
-      color: #94a3b8;
-    }
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+  background: radial-gradient(circle at top, rgba(56,189,248,0.15), transparent 60%);
+}
 
-    .cta {
-      margin-top: 20px;
-    }
+.hero h1 {
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
 
-    .cta a {
-      background: #38bdf8;
-      color: #0f172a;
-      padding: 12px 20px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      margin: 5px;
-      display: inline-block;
-    }
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #94a3b8;
+}
 
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
+.cta {
+  margin-top: 25px;
+}
 
-    h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      font-size: 28px;
-    }
+.btn {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
+.btn-primary {
+  background: #38bdf8;
+  color: #0f172a;
+}
 
-    .card {
-      background: #1e293b;
-      padding: 20px;
-      border-radius: 10px;
-    }
+.btn-primary:hover {
+  transform: translateY(-2px);
+  background: #0ea5e9;
+}
 
-    .card h3 {
-      margin-top: 0;
-      color: #38bdf8;
-    }
+.btn-outline {
+  border: 1px solid #334155;
+  color: #e2e8f0;
+}
 
-    footer {
-      text-align: center;
-      padding: 40px;
-      background: #020617;
-      font-size: 14px;
-      color: #64748b;
-    }
+.btn-outline:hover {
+  border-color: #38bdf8;
+  color: #38bdf8;
+}
 
-    .highlight {
-      color: #38bdf8;
-      font-weight: bold;
-    }
-  </style>
+/* SECTIONS */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 70px 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* GLASS CARD */
+.card {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 22px;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #38bdf8;
+}
+
+.card h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* TAG */
+.tag {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(56,189,248,0.1);
+  color: #38bdf8;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #64748b;
+  border-top: 1px solid rgba(148,163,184,0.1);
+}
+
+/* SCROLL EFFECT */
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
 </head>
 
 <body>
 
-<header>
+<div class="hero fade">
   <h1>Paul Kamau</h1>
-  <p>Odoo ERP Engineer | DevOps Engineer | Cloud Infrastructure Specialist</p>
+  <p>Odoo ERP Engineer • DevOps Engineer • Cloud Infrastructure Specialist</p>
 
   <div class="cta">
-    <a href="mailto:nyoikepaul2@gmail.com">Hire Me</a>
-    <a href="https://github.com/NyoikePaul">GitHub</a>
-    <a href="https://linkedin.com/in/paul-kamau-714a1a225">LinkedIn</a>
+    <a class="btn btn-primary" href="mailto:nyoikepaul2@gmail.com">Hire Me</a>
+    <a class="btn btn-outline" href="https://github.com/NyoikePaul">GitHub</a>
+    <a class="btn btn-outline" href="https://linkedin.com/in/paul-kamau-714a1a225">LinkedIn</a>
   </div>
-</header>
+</div>
 
-<section>
-  <h2>What I Do</h2>
+<section class="fade">
+  <h2>What I Build</h2>
   <div class="grid">
+
     <div class="card">
-      <h3>Odoo ERP</h3>
-      <p>Custom ERP systems with M-Pesa, eTIMS, inventory, accounting, and automation workflows.</p>
+      <h3>Odoo ERP Systems</h3>
+      <p>Enterprise ERP solutions with automation, accounting, M-Pesa, and compliance integrations.</p>
+      <div class="tag">Business Systems</div>
     </div>
 
     <div class="card">
-      <h3>DevOps</h3>
-      <p>CI/CD pipelines, Docker, Kubernetes, Terraform, and production deployments.</p>
+      <h3>DevOps Engineering</h3>
+      <p>CI/CD pipelines, Docker, Kubernetes clusters, Terraform infrastructure automation.</p>
+      <div class="tag">Infrastructure</div>
     </div>
 
     <div class="card">
-      <h3>Cloud Systems</h3>
-      <p>AWS, GCP, and DigitalOcean infrastructure design and scaling.</p>
+      <h3>Cloud Architecture</h3>
+      <p>AWS, GCP, DigitalOcean scalable deployments with monitoring and reliability design.</p>
+      <div class="tag">Cloud</div>
     </div>
 
     <div class="card">
-      <h3>AI Integration</h3>
-      <p>Business automation, predictive analytics, and API-based AI systems.</p>
+      <h3>AI Systems</h3>
+      <p>Business automation tools using ML models, APIs, and intelligent workflows.</p>
+      <div class="tag">Automation</div>
     </div>
+
   </div>
 </section>
 
-<section>
-  <h2>Featured Work</h2>
+<section class="fade">
+  <h2>Featured Projects</h2>
 
   <div class="grid">
+
     <div class="card">
-      <h3>Odoo ERP System</h3>
-      <p>Enterprise ERP with Kenyan business integrations.</p>
+      <h3>Odoo ERP Platform</h3>
+      <p>Full enterprise ERP with Kenyan business integrations and automation.</p>
+      <div class="tag">Production System</div>
     </div>
 
     <div class="card">
       <h3>Kubernetes Migration</h3>
-      <p>Cloud-native infrastructure using Terraform + K8s.</p>
+      <p>Terraform + Kubernetes infrastructure for scalable deployments.</p>
+      <div class="tag">DevOps</div>
     </div>
 
     <div class="card">
       <h3>AI Integration Platform</h3>
-      <p>Machine learning + business automation APIs.</p>
+      <p>Data-driven automation and predictive analytics system.</p>
+      <div class="tag">AI Systems</div>
     </div>
+
   </div>
 </section>
 
-<section>
+<section class="fade">
   <h2>Why Hire Me</h2>
-  <p style="text-align:center; max-width:800px; margin:auto;">
-    I build <span class="highlight">production-grade systems</span>, not demos.
-    My focus is enterprise automation, scalable infrastructure, and real-world business impact.
-  </p>
+  <div class="card">
+    <p>
+      I build <b style="color:#38bdf8;">production-grade systems</b> that solve real business problems.
+      My focus is ERP, DevOps, and scalable infrastructure that runs in real environments—not demos.
+    </p>
+  </div>
 </section>
 
-<section>
+<section class="fade">
   <h2>Contact</h2>
-  <p style="text-align:center;">
-    Email: <span class="highlight">nyoikepaul2@gmail.com</span><br>
-    GitHub: <a href="https://github.com/NyoikePaul" style="color:#38bdf8;">github.com/NyoikePaul</a>
-  </p>
+  <div class="card">
+    <p>Email: <b style="color:#38bdf8;">nyoikepaul2@gmail.com</b></p>
+    <p>GitHub: <a href="https://github.com/NyoikePaul" style="color:#38bdf8;">github.com/NyoikePaul</a></p>
+  </div>
 </section>
 
 <footer>
-  © 2026 Paul Kamau | Built for enterprise systems & DevOps engineering
+© 2026 Paul Kamau — Built for enterprise systems, DevOps & ERP engineering
 </footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+document.querySelectorAll(".fade").forEach(el => observer.observe(el));
+</script>
 
 </body>
 </html>
