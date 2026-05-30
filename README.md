@@ -6,7 +6,7 @@ I design and deploy production-grade business systems that automate operations, 
 
 ---
 
-## 🚀 What I Do
+##  What I Do
 
 - Odoo ERP Development (custom modules, localization, integrations)
 - DevOps Engineering (CI/CD pipelines, Docker, Kubernetes)
@@ -17,16 +17,16 @@ I design and deploy production-grade business systems that automate operations, 
 
 ---
 
-## 🧠 Engineering Philosophy
+##  Engineering Philosophy
 
 I don’t build prototypes.  
 I build **systems that run real businesses in production**.
 
 ---
 
-## 💼 Case Studies
+##  Case Studies
 
-### 🏭 Odoo ERP System
+###  Odoo ERP System
 - Custom ERP modules
 - M-Pesa integration
 - eTIMS compliance support
@@ -37,7 +37,7 @@ https://github.com/NyoikePaul/OdooERP
 
 ---
 
-### ☸️ Kubernetes Migration Platform
+###  Kubernetes Migration Platform
 - Terraform infrastructure
 - CI/CD pipelines
 - Container orchestration
@@ -48,7 +48,7 @@ https://github.com/NyoikePaul/kubernetes-gke-migration
 
 ---
 
-### 🤖 AI Business Integration
+###  AI Business Integration
 - Predictive analytics
 - API integrations
 - Cloud-based AI services
@@ -58,7 +58,7 @@ https://github.com/NyoikePaul/AI-ml-integration
 
 ---
 
-## 🛠️ Core Tech Stack
+##  Core Tech Stack
 
 **Languages:** Python, JavaScript, TypeScript, PHP, SQL, Bash  
 
@@ -72,7 +72,7 @@ https://github.com/NyoikePaul/AI-ml-integration
 
 ---
 
-## ⭐ Why Work With Me
+##  Why Work With Me
 
 - Focus on production-grade systems
 - Strong DevOps + ERP specialization
@@ -81,7 +81,7 @@ https://github.com/NyoikePaul/AI-ml-integration
 
 ---
 
-## 🛠️ Services
+##  Services
 
 - Odoo ERP Development
 - DevOps & CI/CD Setup
@@ -91,7 +91,7 @@ https://github.com/NyoikePaul/AI-ml-integration
 
 ---
 
-## 📈 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=NyoikePaul&show_icons=true" />
@@ -103,7 +103,7 @@ https://github.com/NyoikePaul/AI-ml-integration
 
 ---
 
-## 📩 Contact
+##  Contact
 
 Email: nyoikepaul2@gmail.com  
 LinkedIn: https://linkedin.com/in/paul-kamau-714a1a225  
@@ -111,7 +111,7 @@ GitHub: https://github.com/NyoikePaul
 
 ---
 
-## 🤝 Availability
+##  Availability
 
 Open for:
 - Freelance projects
