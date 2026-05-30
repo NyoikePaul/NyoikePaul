@@ -2,7 +2,10 @@ I design and deploy production-grade business systems that automate operations, 
 
 ---
 
-##  What I Do
+  What I Do
+  --------------
+  --------------
+  
 
 - Odoo ERP Development (custom modules, localization, integrations)
 - DevOps Engineering (CI/CD pipelines, Docker, Kubernetes)
@@ -13,7 +16,7 @@ I design and deploy production-grade business systems that automate operations, 
 
 ---
 
-##  Engineering Philosophy
+  Engineering Philosophy
 
 I don’t build prototypes.  
 I build **systems that run real businesses in production**.
