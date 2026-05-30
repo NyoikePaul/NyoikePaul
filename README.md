@@ -1,116 +1,93 @@
-# 👋 Hi, I'm Paul Kamau
+# Paul Kamau
 
-### Full-Stack Developer | Odoo ERP Engineer | DevOps Engineer
+## Odoo ERP Engineer | DevOps Engineer | Cloud Infrastructure Specialist
 
-I build enterprise-grade systems that help businesses automate operations, scale infrastructure, and improve decision-making.
-
-## 🚀 What I Do
-
-- ERP Development (Odoo)
-- Cloud Infrastructure
-- Kubernetes & DevOps
-- AI-Powered Applications
-- Backend API Development
-- Database Design & Optimization
+I design and deploy production-grade business systems that automate operations, improve scalability, and reduce business inefficiencies.
 
 ---
 
-## 📊 Impact
+## 🚀 What I Do
 
-- Built ERP solutions for Kenyan business workflows
-- Implemented M-Pesa and eTIMS integrations
-- Designed Kubernetes deployment architectures
-- Automated CI/CD pipelines using GitHub Actions
-- Developed AI-powered business automation tools
+- Odoo ERP Development (custom modules, localization, integrations)
+- DevOps Engineering (CI/CD pipelines, Docker, Kubernetes)
+- Cloud Infrastructure (AWS, GCP, DigitalOcean)
+- Backend Systems & APIs
+- Business Process Automation
+- AI-powered internal tools
 
+---
 
-## 🏆 Featured Projects
+## 🧠 Engineering Philosophy
 
-### Odoo ERP Platform
-Enterprise ERP system with:
+I don’t build prototypes.  
+I build **systems that run real businesses in production**.
 
-- Kenyan Localization
-- eTIMS Integration
-- M-Pesa Payments
-- Inventory Management
-- Accounting
-- CRM
-- HR & Payroll
+---
 
-🔗 Repository:
+## 💼 Case Studies
+
+### 🏭 Odoo ERP System
+- Custom ERP modules
+- M-Pesa integration
+- eTIMS compliance support
+- Inventory + Accounting automation
+
+Repo:
 https://github.com/NyoikePaul/OdooERP
 
 ---
 
-### Kubernetes GKE Migration
+### ☸️ Kubernetes Migration Platform
+- Terraform infrastructure
+- CI/CD pipelines
+- Container orchestration
+- Monitoring & logging setup
 
-Production-ready migration platform featuring:
-
-- Terraform IaC
-- Kubernetes
-- CI/CD Pipelines
-- Monitoring
-- Logging
-- Disaster Recovery
-
-🔗 Repository:
+Repo:
 https://github.com/NyoikePaul/kubernetes-gke-migration
 
 ---
 
-### AI/ML Integration Platform
+### 🤖 AI Business Integration
+- Predictive analytics
+- API integrations
+- Cloud-based AI services
 
-Business intelligence platform integrating:
-
-- Machine Learning
-- Predictive Analytics
-- REST APIs
-- Cloud Services
-
-🔗 Repository:
+Repo:
 https://github.com/NyoikePaul/AI-ml-integration
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Core Tech Stack
 
-### Languages
+**Languages:** Python, JavaScript, TypeScript, PHP, SQL, Bash  
 
-JavaScript
-TypeScript
-Python
-PHP
-SQL
-Bash
+**Backend:** FastAPI, Node.js, Django, Laravel, Odoo  
 
-### Backend
+**DevOps:** Docker, Kubernetes, Terraform, GitHub Actions, NGINX  
 
-Node.js
-NestJS
-FastAPI
-Laravel
-Django
-Odoo
+**Cloud:** AWS, GCP, DigitalOcean  
 
-### DevOps
+**Databases:** PostgreSQL, MySQL, Redis  
 
-Docker
-Kubernetes
-Terraform
-GitHub Actions
-NGINX
+---
 
-### Cloud
+## ⭐ Why Work With Me
 
-AWS
-Google Cloud
-DigitalOcean
+- Focus on production-grade systems
+- Strong DevOps + ERP specialization
+- Experience with real business automation systems
+- Africa-focused enterprise solutions (M-Pesa, eTIMS, local ERP workflows)
 
-### Databases
+---
 
-PostgreSQL
-MySQL
-Redis
+## 🛠️ Services
+
+- Odoo ERP Development
+- DevOps & CI/CD Setup
+- Cloud Infrastructure Deployment
+- API Development
+- System Automation
 
 ---
 
@@ -126,37 +103,18 @@ Redis
 
 ---
 
-## 🌍 Current Focus
+## 📩 Contact
 
-- Enterprise Odoo Solutions
-- Cloud Native Applications
-- Kubernetes Infrastructure
-- AI Business Systems
-
----
-
-## 🤝 Available For
-
-✅ Freelance Projects
-
-✅ Contract Work
-
-✅ Odoo ERP Consulting
-
-✅ DevOps Engineering
-
-✅ Full Stack Development
+Email: nyoikepaul2@gmail.com  
+LinkedIn: https://linkedin.com/in/paul-kamau-714a1a225  
+GitHub: https://github.com/NyoikePaul
 
 ---
 
-## 📫 Contact
+## 🤝 Availability
 
-LinkedIn:
-https://linkedin.com/in/paul-kamau-714a1a225
-
-GitHub:
-https://github.com/NyoikePaul
-
-Email:
-nyoikepaul2@gmail.com
-
+Open for:
+- Freelance projects
+- Contract work
+- Odoo ERP consulting
+- DevOps engineering roles
