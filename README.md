@@ -1,7 +1,3 @@
-# Paul Kamau
-
-
-
 I design and deploy production-grade business systems that automate operations, improve scalability, and reduce business inefficiencies.
 
 ---
