@@ -1,117 +1,62 @@
-I design and deploy production-grade business systems that automate operations, improve scalability, and reduce business inefficiencies.
+Nyoike Paul Kamau
+=================
+
+Senior Full-Stack Engineer, Odoo ERP Specialist, and Systems Architect specializing 
+in core API design, server-side engineering, database optimization, and infrastructure 
+automation. Operating professionally out of Nairobi and Naivasha, Kenya.
+
+Primary technical expertise centers on building high-availability backends, production-ready 
+payment rails, comprehensive enterprise resource planning (ERP) localizations, and pure 
+Bash/Linux systems automation toolkits.
 
 
-  What I Do
+Primary Technical Focus
+-----------------------
 
-  
+* Architecture: High-concurrency API engineering, server logic optimization, complex relational database schema design, and query optimization.
+* ERP Systems: Advanced implementation, customization, deep workflow adaptation, and Kenyan market compliance localization for Odoo (spanning versions 16 through 19).
+* Financial Engineering: Production-grade transactional integrations with Safaricom M-Pesa API infrastructure, handling STK Push, C2B, B2C flows, and asynchronous ledger reconciliation.
+* DevOps & Systems: Shell automation, infrastructure provisioning, containerized application design, and configuration engineering within Linux (Ubuntu) and WSL environments.
 
-- Odoo ERP Development (custom modules, localization, integrations)
-- DevOps Engineering (CI/CD pipelines, Docker, Kubernetes)
-- Cloud Infrastructure (AWS, GCP, DigitalOcean)
-- Backend Systems & APIs
-- Business Process Automation
-- AI-powered internal tools
 
----
+Ecosystem Artifacts & Core Repositories
+---------------------------------------
 
-  Engineering Philosophy
+* Bash Cloud Forge:
+  A pure Bash systems-level toolkit engineered for automated infrastructure provisioning, cloud environment orchestration, and local workspace boot-strapping. Contains modular deployment blueprints for independent engineers and agencies.
 
-I don’t build prototypes.  
-I build **systems that run real businesses in production**.
+* Odoo Enterprise RAG Agent:
+  An intelligent, context-aware retrieval-augmented generation engine built using LangChain and FastAPI. Designed to connect securely to internal Odoo ERP databases for real-time natural language documentation parsing and registry querying.
 
----
+* Kubernetes GKE Migration:
+  Architectural blueprints, production manifests, and automation scripts developed to orchestrate complex, cross-tenant workload migrations within Google Kubernetes Engine (GKE) environments.
 
-##  Case Studies
+* Nexus Flow:
+  A resilient, full-stack logistics execution and supply chain management engine designed to process real-time transaction records, routing, and heavy concurrency tracking.
 
-###  Odoo ERP System
-- Custom ERP modules
-- M-Pesa integration
-- eTIMS compliance support
-- Inventory + Accounting automation
+* BiasharaOS:
+  The structural backend architecture, database layer, and API framework driving a multi-tenant business execution operating system tailored for scaling operations.
 
-Repo:
-https://github.com/NyoikePaul/OdooERP
 
----
+Technical Stack & Environment Matrix
+------------------------------------
 
-###  Kubernetes Migration Platform
-- Terraform infrastructure
-- CI/CD pipelines
-- Container orchestration
-- Monitoring & logging setup
+* Languages & Runtimes: Python, Bash (Bourne Again Shell), Node.js / JavaScript
+* Core Frameworks: FastAPI, Odoo ERP Core Engine, MedusaJS
+* Infrastructure & Tools: Linux (Ubuntu Server), Windows Subsystem for Linux (WSL), Docker, Docker Compose, Google Kubernetes Engine (GKE), Terraform (IaC), Git
+* Database Systems: PostgreSQL (Advanced Indexing, Relational Schema Tuning), Redis
 
-Repo:
-https://github.com/NyoikePaul/kubernetes-gke-migration
 
----
+Academic Foundation & History
+-----------------------------
 
-###  AI Business Integration
-- Predictive analytics
-- API integrations
-- Cloud-based AI services
+* Bachelor of Science in Information Technology
+  Kirinyaga University — Conferred December 2021.
+  Focus fields: Systems analysis, database management systems, and network engineering models.
 
-Repo:
-https://github.com/NyoikePaul/AI-ml-integration
 
----
+Engineering Intake & Upstream Coordination
+------------------------------------------
 
-##  Core Tech Stack
-
-**Languages:** Python, JavaScript, TypeScript, PHP, SQL, Bash  
-
-**Backend:** FastAPI, Node.js, Django, Laravel, Odoo  
-
-**DevOps:** Docker, Kubernetes, Terraform, GitHub Actions, NGINX  
-
-**Cloud:** AWS, GCP, DigitalOcean  
-
-**Databases:** PostgreSQL, MySQL, Redis  
-
----
-
-##  Why Work With Me
-
-- Focus on production-grade systems
-- Strong DevOps + ERP specialization
-- Experience with real business automation systems
-- Africa-focused enterprise solutions (M-Pesa, eTIMS, local ERP workflows)
-
----
-
-##  Services
-
-- Odoo ERP Development
-- DevOps & CI/CD Setup
-- Cloud Infrastructure Deployment
-- API Development
-- System Automation
-
----
-
-##  GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=NyoikePaul&show_icons=true" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NyoikePaul" />
-</p>
-
----
-
-##  Contact
-
-Email: nyoikepaul2@gmail.com  
-LinkedIn: https://linkedin.com/in/paul-kamau-714a1a225  
-GitHub: https://github.com/NyoikePaul
-
----
-
-##  Availability
-
-Open for:
-- Freelance projects
-- Contract work
-- Odoo ERP consulting
-- DevOps engineering roles
+* Available Engagements: High-value enterprise infrastructure contracts, custom payment gateway architectures, Odoo localization layer development, and legacy system migration blueprints.
+* Source Trees: Review individual active project repositories via the upstream directory tree at https://github.com/NyoikePaul or establish contact through verified professional network networks.
