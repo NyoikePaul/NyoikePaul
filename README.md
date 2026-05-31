@@ -1,87 +1,92 @@
-
 <pre>
 Nyoike Paul Kamau
 =================
 
-Senior Full-Stack Engineer, Odoo ERP Specialist, and Systems Architect specializing 
-in core API design, server-side engineering, database optimization, and infrastructure 
-automation. Operating professionally out of Nairobi and Naivasha, Kenya.
+MAINTAINER: Nyoike Paul Kamau &lt;https://github.com/NyoikePaul&gt;
+ROLE: Senior Full-Stack Engineer and Systems Architect
+LOCATION: Nairobi / Naivasha, Kenya
+FOCUS: API, Server-Side Core Logic, and Relational Database Architecture
 
-Primary technical expertise centers on building high-availability backends, production-ready 
-payment rails, comprehensive enterprise resource planning (ERP) localizations, and pure 
-Bash/Linux systems automation toolkits.
-
-
-Quick Navigation / Pinned Production Repositories
--------------------------------------------------
-
-* Odoo ERP Workspace          :: https://github.com/NyoikePaul/OdooERP
-* Bash Cloud Forge            :: https://github.com/NyoikePaul/bash-cloud-forge
-* Odoo Enterprise RAG Agent   :: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
-* Kubernetes GKE Migration   :: https://github.com/NyoikePaul/kubernetes-gke-migration
-* Nexus Flow Logistics        :: https://github.com/NyoikePaul/nexus-flow
-* BiasharaOS Core             :: https://github.com/NyoikePaul/BiasharaOS
+ABSTRACT
+--------
+This repository layout functions as an upstream entry point to core systems, enterprise 
+software configurations, payment rail drivers, and infrastructure-as-code deployments 
+architected for high-throughput commercial operations.
 
 
-Primary Technical Focus
------------------------
+CORE SUBSYSTEM TREES (PINNED REPOSITORIES)
+------------------------------------------
 
-* Architecture: High-concurrency API engineering, server logic optimization, complex relational database schema design, and query optimization.
-* ERP Systems: Advanced implementation, customization, deep workflow adaptation, and Kenyan market compliance localization for Odoo (spanning versions 16 through 19).
-* Financial Engineering: Production-grade transactional integrations with Safaricom M-Pesa API infrastructure, handling STK Push, C2B, B2C flows, and asynchronous ledger reconciliation.
-* DevOps & Systems: Shell automation, infrastructure provisioning, containerized application design, and configuration engineering within Linux (Ubuntu) and WSL environments.
-
-
-Ecosystem Artifacts & Core Repositories
----------------------------------------
-
-* Odoo ERP Workspace:
-  A production-grade multi-container development and deployment environment orchestration tree. Houses isolated container definitions, PostgreSQL storage layers, database caching policies, and optimized local runtime overrides.
-  Source Tree: https://github.com/NyoikePaul/OdooERP
-
-* Bash Cloud Forge:
-  A pure Bash systems-level toolkit engineered for automated infrastructure provisioning, cloud environment orchestration, and local workspace boot-strapping. Contains modular deployment blueprints for independent engineers and agencies.
-  Source Tree: https://github.com/NyoikePaul/bash-cloud-forge
-
-* Odoo Enterprise RAG Agent:
-  An intelligent, context-aware retrieval-augmented generation engine built using LangChain and FastAPI. Designed to connect securely to internal Odoo ERP databases for real-time natural language documentation parsing and registry querying.
-  Source Tree: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
-
-* Kubernetes GKE Migration:
-  Architectural blueprints, production manifests, and automation scripts developed to orchestrate complex, cross-tenant workload migrations within Google Kubernetes Engine (GKE) environments.
-  Source Tree: https://github.com/NyoikePaul/kubernetes-gke-migration
-
-* Nexus Flow:
-  A resilient, full-stack logistics execution and supply chain management engine designed to process real-time transaction records, routing, and heavy concurrency tracking.
-  Source Tree: https://github.com/NyoikePaul/nexus-flow
-
-* BiasharaOS:
-  The structural backend architecture, database layer, and API framework driving a multi-tenant business execution operating system tailored for scaling operations.
-  Source Tree: https://github.com/NyoikePaul/BiasharaOS
+* OdooERP                  :: Infrastructure tree for multi-container enterprise deployments.
+                              Link: https://github.com/NyoikePaul/OdooERP
+* bash-cloud-forge         :: Low-level automated workstation and server provisioning toolkit.
+                              Link: https://github.com/NyoikePaul/bash-cloud-forge
+* odoo-enterprise-rag-agent:: Contextual data pipeline leveraging LLM orchestration over ERP registries.
+                              Link: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
+* kubernetes-gke-migration :: Production blueprints for cross-tenant container orchestrations.
+                              Link: https://github.com/NyoikePaul/kubernetes-gke-migration
+* nexus-flow               :: Concurrent transactional logistics execution runtime engine.
+                              Link: https://github.com/NyoikePaul/nexus-flow
+* BiasharaOS               :: Core service schemas and framework tracking multi-tenant enterprise execution.
+                              Link: https://github.com/NyoikePaul/BiasharaOS
 
 
-Technical Stack & Environment Matrix
-------------------------------------
+TECHNICAL SPECIFICATIONS BY LAYER
+---------------------------------
 
-* Languages & Runtimes: Python, Bash (Bourne Again Shell), Node.js / JavaScript
-* Core Frameworks: FastAPI, Odoo ERP Core Engine, MedusaJS
-* Infrastructure & Tools: Linux (Ubuntu Server), Windows Subsystem for Linux (WSL), Docker, Docker Compose, Google Kubernetes Engine (GKE), Terraform (IaC), Git
-* Database Systems: PostgreSQL (Advanced Indexing, Relational Schema Tuning), Redis
+01. API & SERVER ARCHITECTURE
+    * High-concurrency backend design specializing in decoupled structural abstractions.
+    * State machine design patterns engineered to process asynchronous transaction pipelines.
+    * Strict logical validation enforcement for high-throughput, secure REST and RPC endpoints.
+
+02. RELATIONAL DATABASE & STORAGE SUBSYSTEMS
+    * Engine target: PostgreSQL (Advanced multi-tier relational schema architecture).
+    * Performance vectors: Write-ahead logging analysis, deep execution plan tracking, and custom indexing.
+    * In-memory cache layouts utilizing Redis primitives for session isolation and rate-limiting.
+
+03. ENTERPRISE SYSTEM LOGISTICS (ODOO ERP CORES)
+    * Lifecycle: Custom module engineering, data normalization, and system workflows for Odoo versions 16 through 19.
+    * Domain specialties: Real estate lifecycle control, asset management tracking, and manufacturing inventory layers.
+    * Compliance: Localization adjustments tailored specifically to Kenyan taxation frameworks and fiscal processing rules.
+
+04. FINANCIAL INTERFACE INTEGRATION (FINTECH RAILS)
+    * Directly integrated transaction drivers for Safaricom M-Pesa programmatic infrastructure.
+    * Native processing coverage: Real-time STK Push triggers, C2B receipt webhooks, and outbound B2C payment rails.
+    * Security vectors: Asynchronous ledger balance reconciliation routines and idempotency guarantees.
+
+05. DEV&OPS ENVIRONMENT AUTOMATION
+    * Strategy: POSIX-compliant pure Bash script automation for complete lifecycle server provisioning.
+    * Environments: Native Linux (Ubuntu Server architectures) and highly integrated WSL systems development setups.
+    * Orchestration: Production configuration manifests across Google Kubernetes Engine (GKE), Docker Compose, and Terraform IaC.
 
 
-Academic Foundation & History
+ENVIRONMENT MATRIX
+------------------
+
+    +-------------------+---------------------------------------------------------+
+    | RUNTIMES          | Python, Bash Shell, JavaScript / Node.js                |
+    +-------------------+---------------------------------------------------------+
+    | CORE FRAMEWORKS   | FastAPI, Odoo Engine, MedusaJS                          |
+    +-------------------+---------------------------------------------------------+
+    | STORAGE ARCHs     | PostgreSQL, Redis                                       |
+    +-------------------+---------------------------------------------------------+
+    | SYSTEMS / DEVOPS  | Linux (Ubuntu), WSL, Docker, Kubernetes (GKE), Git      |
+    +-------------------+---------------------------------------------------------+
+
+
+PROVENANCE & HARDWARE HISTORY
 -----------------------------
 
 * Bachelor of Science in Information Technology
-  Kirinyaga University — Conferred December 2021.
-  Focus fields: Systems analysis, database management systems, and network engineering models.
+  Kirinyaga University — Degree conferred December 2021.
+  Core curriculum focus: System architecture metrics, database normalization models, and network paradigms.
 
 
-Engineering Intake & Upstream Coordination
+INTAKE COMPLIANCE & UPSTREAM COMMUNICATION
 ------------------------------------------
+The system maintainer accepts high-value contract inputs, custom Odoo market localization layer 
+specifications, financial payment pipeline configurations, and automated cloud migration assignments.
 
-* Available Engagements: High-value enterprise infrastructure contracts, custom payment gateway architectures, Odoo localization layer development, and legacy system migration blueprints.
-* Source Trees: Review individual active project repositories via the upstream directory tree at https://github.com/NyoikePaul or engage through formal contract profiles.
+All inbound development logic requests or architectural consultations should be initiated 
+via official channel endpoints or upstream source code review requests.
 </pre>
-
-```
