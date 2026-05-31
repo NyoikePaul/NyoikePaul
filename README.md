@@ -1,3 +1,5 @@
+```markdown
+<pre>
 Nyoike Paul Kamau
 =================
 
@@ -8,6 +10,17 @@ automation. Operating professionally out of Nairobi and Naivasha, Kenya.
 Primary technical expertise centers on building high-availability backends, production-ready 
 payment rails, comprehensive enterprise resource planning (ERP) localizations, and pure 
 Bash/Linux systems automation toolkits.
+
+
+Quick Navigation / Pinned Production Repositories
+-------------------------------------------------
+
+* Odoo ERP Workspace          :: https://github.com/NyoikePaul/OdooERP
+* Bash Cloud Forge            :: https://github.com/NyoikePaul/bash-cloud-forge
+* Odoo Enterprise RAG Agent   :: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
+* Kubernetes GKE Migration   :: https://github.com/NyoikePaul/kubernetes-gke-migration
+* Nexus Flow Logistics        :: https://github.com/NyoikePaul/nexus-flow
+* BiasharaOS Core             :: https://github.com/NyoikePaul/BiasharaOS
 
 
 Primary Technical Focus
@@ -22,20 +35,29 @@ Primary Technical Focus
 Ecosystem Artifacts & Core Repositories
 ---------------------------------------
 
+* Odoo ERP Workspace:
+  A production-grade multi-container development and deployment environment orchestration tree. Houses isolated container definitions, PostgreSQL storage layers, database caching policies, and optimized local runtime overrides.
+  Source Tree: https://github.com/NyoikePaul/OdooERP
+
 * Bash Cloud Forge:
   A pure Bash systems-level toolkit engineered for automated infrastructure provisioning, cloud environment orchestration, and local workspace boot-strapping. Contains modular deployment blueprints for independent engineers and agencies.
+  Source Tree: https://github.com/NyoikePaul/bash-cloud-forge
 
 * Odoo Enterprise RAG Agent:
   An intelligent, context-aware retrieval-augmented generation engine built using LangChain and FastAPI. Designed to connect securely to internal Odoo ERP databases for real-time natural language documentation parsing and registry querying.
+  Source Tree: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
 
 * Kubernetes GKE Migration:
   Architectural blueprints, production manifests, and automation scripts developed to orchestrate complex, cross-tenant workload migrations within Google Kubernetes Engine (GKE) environments.
+  Source Tree: https://github.com/NyoikePaul/kubernetes-gke-migration
 
 * Nexus Flow:
   A resilient, full-stack logistics execution and supply chain management engine designed to process real-time transaction records, routing, and heavy concurrency tracking.
+  Source Tree: https://github.com/NyoikePaul/nexus-flow
 
 * BiasharaOS:
   The structural backend architecture, database layer, and API framework driving a multi-tenant business execution operating system tailored for scaling operations.
+  Source Tree: https://github.com/NyoikePaul/BiasharaOS
 
 
 Technical Stack & Environment Matrix
@@ -59,4 +81,7 @@ Engineering Intake & Upstream Coordination
 ------------------------------------------
 
 * Available Engagements: High-value enterprise infrastructure contracts, custom payment gateway architectures, Odoo localization layer development, and legacy system migration blueprints.
-* Source Trees: Review individual active project repositories via the upstream directory tree at https://github.com/NyoikePaul or establish contact through verified professional network networks.
+* Source Trees: Review individual active project repositories via the upstream directory tree at https://github.com/NyoikePaul or engage through formal contract profiles.
+</pre>
+
+```
