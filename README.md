@@ -2,10 +2,9 @@
 Nyoike Paul Kamau
 =================
 
-
-
 ABSTRACT
 --------
+
 This repository layout functions as an upstream entry point to core systems, enterprise 
 software configurations, payment rail drivers, and infrastructure-as-code deployments 
 architected for high-throughput commercial operations.
@@ -14,18 +13,18 @@ architected for high-throughput commercial operations.
 CORE SUBSYSTEM TREES (PINNED REPOSITORIES)
 ------------------------------------------
 
-* OdooERP                               :: Infrastructure tree for multi-container enterprise deployments.
-                                           Link: https://github.com/NyoikePaul/OdooERP
-* bash-cloud-forge                      :: Low-level automated workstation and server provisioning toolkit.
-                                           Link: https://github.com/NyoikePaul/bash-cloud-forge
-* odoo-enterprise-rag-agent             :: Contextual data pipeline leveraging LLM orchestration over ERP registries.
-                                           Link: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
-* kubernetes-gke-migration              :: Production blueprints for cross-tenant container orchestrations.
-                                           Link: https://github.com/NyoikePaul/kubernetes-gke-migration
-* nexus-flow                            :: Concurrent transactional logistics execution runtime engine.
-                                           Link: https://github.com/NyoikePaul/nexus-flow
-* BiasharaOS                            :: Core service schemas and framework tracking multi-tenant enterprise execution.
-                                           Link: https://github.com/NyoikePaul/BiasharaOS
+* OdooERP                    :: Infrastructure tree for multi-container enterprise deployments.
+                              Link: <a href="https://github.com/NyoikePaul/OdooERP" target="_blank">https://github.com/NyoikePaul/OdooERP</a>
+* bash-cloud-forge           :: Low-level automated workstation and server provisioning toolkit.
+                              Link: <a href="https://github.com/NyoikePaul/bash-cloud-forge" target="_blank">https://github.com/NyoikePaul/bash-cloud-forge</a>
+* odoo-enterprise-rag-agent  :: Contextual data pipeline leveraging LLM orchestration over ERP registries.
+                              Link: <a href="https://github.com/NyoikePaul/odoo-enterprise-rag-agent" target="_blank">https://github.com/NyoikePaul/odoo-enterprise-rag-agent</a>
+* kubernetes-gke-migration   :: Production blueprints for cross-tenant container orchestrations.
+                              Link: <a href="https://github.com/NyoikePaul/kubernetes-gke-migration" target="_blank">https://github.com/NyoikePaul/kubernetes-gke-migration</a>
+* nexus-flow                 :: Concurrent transactional logistics execution runtime engine.
+                              Link: <a href="https://github.com/NyoikePaul/nexus-flow" target="_blank">https://github.com/NyoikePaul/nexus-flow</a>
+* BiasharaOS                :: Core service schemas and framework tracking multi-tenant enterprise execution.
+                              Link: <a href="https://github.com/NyoikePaul/BiasharaOS" target="_blank">https://github.com/NyoikePaul/BiasharaOS</a>
 
 
 TECHNICAL SPECIFICATIONS BY LAYER
@@ -57,18 +56,20 @@ TECHNICAL SPECIFICATIONS BY LAYER
     * Orchestration: Production configuration manifests across Google Kubernetes Engine (GKE), Docker Compose, and Terraform IaC.
 
 
-ENVIRONMENT MATRIX
-------------------
+RECOMMENDED ENVIRONMENT MATRIX
+------------------------------
 
-    +-------------------+---------------------------------------------------------+
-    | RUNTIMES          | Python, Bash Shell, JavaScript / Node.js                |
-    +-------------------+---------------------------------------------------------+
-    | CORE FRAMEWORKS   | FastAPI, Odoo Engine, MedusaJS                          |
-    +-------------------+---------------------------------------------------------+
-    | STORAGE ARCHs     | PostgreSQL, Redis                                       |
-    +-------------------+---------------------------------------------------------+
-    | SYSTEMS / DEVOPS  | Linux (Ubuntu), WSL, Docker, Kubernetes (GKE), Git      |
-    +-------------------+---------------------------------------------------------+
++-------------------+---------------------------------------------------------+
+| SUBSYSTEM ARCH    | TARGETED RUNTIMES / SYSTEM CONFIGURATIONS               |
++-------------------+---------------------------------------------------------+
+| CORE RUNTIMES     | Python Engine, GNU Bash Shell, JavaScript / Node.js     |
++-------------------+---------------------------------------------------------+
+| FRAMEWORKS        | FastAPI Architecture, Odoo ERP Core, MedusaJS Rails     |
++-------------------+---------------------------------------------------------+
+| STORAGE LAYERS    | PostgreSQL (Relational Engine), Redis Cache Primitives  |
++-------------------+---------------------------------------------------------+
+| INFRASTRUCTURE    | Linux (Ubuntu), WSL, Docker Engine, GKE Core, Terraform |
++-------------------+---------------------------------------------------------+
 
 
 PROVENANCE & HARDWARE HISTORY
