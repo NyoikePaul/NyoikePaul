@@ -2,9 +2,6 @@
 Nyoike Paul Kamau
 =================
 
-ABSTRACT
---------
-
 This repository layout functions as an upstream entry point to core systems, enterprise 
 software configurations, payment rail drivers, and infrastructure-as-code deployments 
 architected for high-throughput commercial operations.
@@ -13,18 +10,17 @@ architected for high-throughput commercial operations.
 CORE SUBSYSTEM TREES (PINNED REPOSITORIES)
 ------------------------------------------
 
-* OdooERP                    :: Infrastructure tree for multi-container enterprise deployments.
-                              Link: <a href="https://github.com/NyoikePaul/OdooERP" target="_blank">https://github.com/NyoikePaul/OdooERP</a>
-* bash-cloud-forge           :: Low-level automated workstation and server provisioning toolkit.
-                              Link: <a href="https://github.com/NyoikePaul/bash-cloud-forge" target="_blank">https://github.com/NyoikePaul/bash-cloud-forge</a>
-* odoo-enterprise-rag-agent  :: Contextual data pipeline leveraging LLM orchestration over ERP registries.
-                              Link: <a href="https://github.com/NyoikePaul/odoo-enterprise-rag-agent" target="_blank">https://github.com/NyoikePaul/odoo-enterprise-rag-agent</a>
-* kubernetes-gke-migration   :: Production blueprints for cross-tenant container orchestrations.
-                              Link: <a href="https://github.com/NyoikePaul/kubernetes-gke-migration" target="_blank">https://github.com/NyoikePaul/kubernetes-gke-migration</a>
-* nexus-flow                 :: Concurrent transactional logistics execution runtime engine.
-                              Link: <a href="https://github.com/NyoikePaul/nexus-flow" target="_blank">https://github.com/NyoikePaul/nexus-flow</a>
-* BiasharaOS                :: Core service schemas and framework tracking multi-tenant enterprise execution.
-                              Link: <a href="https://github.com/NyoikePaul/BiasharaOS" target="_blank">https://github.com/NyoikePaul/BiasharaOS</a>
+* OdooERP                           Infrastructure tree for multi-container enterprise deployments.  <a href="https://github.com/NyoikePaul/OdooERP" target="_blank">https://github.com/NyoikePaul/OdooERP</a>
+  
+* bash-cloud-forge                  Low-level automated workstation and server provisioning toolkit . <a href="https://github.com/NyoikePaul/bash-cloud-forge" target="_blank">https://github.com/NyoikePaul/bash-cloud-forge</a>  
+  
+* odoo-enterprise-rag-agent         Contextual data pipeline leveraging LLM orchestration over ERP registries. <a href="https://github.com/NyoikePaul/odoo-enterprise-rag-agent" target="_blank">https://github.com/NyoikePaul/odoo-enterprise-rag-agent</a>
+  
+* kubernetes-gke-migration          Production blueprints for cross-tenant container orchestrations. <a href="https://github.com/NyoikePaul/kubernetes-gke-migration" target="_blank">https://github.com/NyoikePaul/kubernetes-gke-migration</a>
+  
+* nexus-flow                        Concurrent transactional logistics execution runtime engine. <a href="https://github.com/NyoikePaul/nexus-flow" target="_blank">https://github.com/NyoikePaul/nexus-flow</a>
+  
+* BiasharaOS                        Core service schemas and framework tracking multi-tenant enterprise execution. <a href="https://github.com/NyoikePaul/BiasharaOS" target="_blank">https://github.com/NyoikePaul/BiasharaOS</a>
 
 
 TECHNICAL SPECIFICATIONS BY LAYER
