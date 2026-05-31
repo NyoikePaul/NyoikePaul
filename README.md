@@ -2,10 +2,7 @@
 Nyoike Paul Kamau
 =================
 
-MAINTAINER: Nyoike Paul Kamau &lt;https://github.com/NyoikePaul&gt;
-ROLE: Senior Full-Stack Engineer and Systems Architect
-LOCATION: Nairobi / Naivasha, Kenya
-FOCUS: API, Server-Side Core Logic, and Relational Database Architecture
+
 
 ABSTRACT
 --------
@@ -17,18 +14,18 @@ architected for high-throughput commercial operations.
 CORE SUBSYSTEM TREES (PINNED REPOSITORIES)
 ------------------------------------------
 
-* OdooERP                  :: Infrastructure tree for multi-container enterprise deployments.
-                              Link: https://github.com/NyoikePaul/OdooERP
-* bash-cloud-forge         :: Low-level automated workstation and server provisioning toolkit.
-                              Link: https://github.com/NyoikePaul/bash-cloud-forge
-* odoo-enterprise-rag-agent:: Contextual data pipeline leveraging LLM orchestration over ERP registries.
-                              Link: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
-* kubernetes-gke-migration :: Production blueprints for cross-tenant container orchestrations.
-                              Link: https://github.com/NyoikePaul/kubernetes-gke-migration
-* nexus-flow               :: Concurrent transactional logistics execution runtime engine.
-                              Link: https://github.com/NyoikePaul/nexus-flow
-* BiasharaOS               :: Core service schemas and framework tracking multi-tenant enterprise execution.
-                              Link: https://github.com/NyoikePaul/BiasharaOS
+* OdooERP                               :: Infrastructure tree for multi-container enterprise deployments.
+                                           Link: https://github.com/NyoikePaul/OdooERP
+* bash-cloud-forge                      :: Low-level automated workstation and server provisioning toolkit.
+                                           Link: https://github.com/NyoikePaul/bash-cloud-forge
+* odoo-enterprise-rag-agent             :: Contextual data pipeline leveraging LLM orchestration over ERP registries.
+                                           Link: https://github.com/NyoikePaul/odoo-enterprise-rag-agent
+* kubernetes-gke-migration              :: Production blueprints for cross-tenant container orchestrations.
+                                           Link: https://github.com/NyoikePaul/kubernetes-gke-migration
+* nexus-flow                            :: Concurrent transactional logistics execution runtime engine.
+                                           Link: https://github.com/NyoikePaul/nexus-flow
+* BiasharaOS                            :: Core service schemas and framework tracking multi-tenant enterprise execution.
+                                           Link: https://github.com/NyoikePaul/BiasharaOS
 
 
 TECHNICAL SPECIFICATIONS BY LAYER
